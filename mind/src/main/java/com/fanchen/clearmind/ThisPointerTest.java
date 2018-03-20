@@ -1,4 +1,4 @@
-package com.fanchen.clear.mind;
+package com.fanchen.clearmind;
 
 import lombok.Builder;
 import lombok.Data;
