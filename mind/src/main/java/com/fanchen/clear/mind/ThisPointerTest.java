@@ -16,7 +16,6 @@ public class ThisPointerTest {
 
 		Person person = Person.builder().age(ageFromInput).name(nameFromInput).email(emailFromInput).build();
 		log.info(person.toString());
-
 	}
 
 }

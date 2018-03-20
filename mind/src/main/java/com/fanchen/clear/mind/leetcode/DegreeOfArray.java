@@ -1,4 +1,4 @@
-package com.fanchen.clear.mind;
+package com.fanchen.clear.mind.leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
