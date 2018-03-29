@@ -30,6 +30,6 @@ public class TestEmployeeDetails {
 		employee.setMonthlySalary(8000);
 
 		double salary = empBusinessLogic.calculateYearlySalary(employee);
-		assertEquals(95000, salary, 0.0);
+		assertEquals(96000, salary, 0.0);
 	}
 }
