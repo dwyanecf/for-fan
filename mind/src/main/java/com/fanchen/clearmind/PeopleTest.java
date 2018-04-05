@@ -1,33 +1,26 @@
 package com.fanchen.clearmind;
 
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class PeopleTest {
 	public static void main(String[] args) {
 		
+		List<List<String>> list = Arrays.asList(
+				  Arrays.asList("a"),
+				  Arrays.asList("b"));
+				System.out.println(list);
+				
+				
+				System.out.println(list
+						  .stream()
+						  .flatMap(Collection::stream)
+						  .collect(Collectors.toList()));
+		
 		People JinBao = new People("ChenJin",25,"CHN");
-		
-//		System.out.println(JinBao.toString());
 		System.out.println(JinBao.toBigString());
-		
-//		System.out.println(JinBao.getName());
-//		System.out.println(JinBao.getAge());
-//		System.out.println(JinBao.getNationality());
-//		
-//		
-//		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-//		System.out.println();
-//		System.out.println();
-//		System.out.println();
-//		System.out.println();
-//		
-//		
-//		JinBao.setName("SuperMan");
-//		JinBao.setAge(100);
-//		
-//		
-//		System.out.println(JinBao.getName());
-//		System.out.println(JinBao.getAge());
-//		System.out.println(JinBao.getNationality());
-		
 		
 		
 	}
