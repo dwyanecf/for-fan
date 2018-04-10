@@ -23,6 +23,7 @@ public class TopKFrequentElements {
 		for (int n : nums) {
 			map.put(n, map.getOrDefault(n, 0) + 1);
 		}
+		@SuppressWarnings("unchecked")
 		List<Integer>[] frequency = new List[nums.length];
 		for (Integer key : map.keySet()) {
 			int freq = map.get(key);

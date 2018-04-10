@@ -43,6 +43,7 @@ public class SortCharactersByFrequency {
 		for (Character key : s.toCharArray()) {
 			map.put(key, map.getOrDefault(key, 0) + 1);
 		}
+		@SuppressWarnings("unchecked")
 		List<Character>[] frequency = new ArrayList[s.length() + 1];
 		for (Character key : map.keySet()) {
 			int freq = map.get(key);
