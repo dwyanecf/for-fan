@@ -1,4 +1,4 @@
-package com.fanchen.clearmind.ultimate.test;
+package com.fanchen.clearmind.testcase;
 
 import org.junit.After;
 import org.junit.AfterClass;
