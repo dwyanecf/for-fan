@@ -1,4 +1,4 @@
-package com.fanchen.clearmind;
+package com.fanchen.clearmind.concept;
 
 import java.util.HashSet;
 import java.util.Set;

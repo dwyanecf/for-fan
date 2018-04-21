@@ -1,4 +1,4 @@
-package com.fanchen.clearmind;
+package com.fanchen.clearmind.concept;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.net.Socket;

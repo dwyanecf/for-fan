@@ -1,4 +1,4 @@
-package com.fanchen.clearmind;
+package com.fanchen.clearmind.concept;
 
 /**
  * Hello world!

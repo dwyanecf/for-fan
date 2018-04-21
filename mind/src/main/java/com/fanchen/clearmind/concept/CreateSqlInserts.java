@@ -1,4 +1,4 @@
-package com.fanchen.clearmind;
+package com.fanchen.clearmind.concept;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
