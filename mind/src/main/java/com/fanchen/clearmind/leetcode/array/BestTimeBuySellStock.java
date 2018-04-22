@@ -22,7 +22,7 @@ public class BestTimeBuySellStock {
         int currentProfit = 0;
         int profit = 0;
         for (int i = 1; i < prices.length; i++) {
-            currentProfit = Math.max(0, currentProfit + prices[i] - prices[i - 1]);
+            currentProfit = Math.max(0, currentProfit) + prices[i] - prices[i - 1];
             profit = Math.max(profit, currentProfit);
         }
         return profit;
