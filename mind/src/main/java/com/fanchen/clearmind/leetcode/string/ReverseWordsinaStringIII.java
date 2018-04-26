@@ -16,7 +16,7 @@ public class ReverseWordsinaStringIII {
         for (String word : words) {
             sb.append(" " + reverseString(word));
         }
-        return sb.reverse().toString().trim();
+        return sb.toString().trim();
 
     }
 
