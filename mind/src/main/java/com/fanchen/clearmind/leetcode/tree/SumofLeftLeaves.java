@@ -26,8 +26,7 @@ public class SumofLeftLeaves {
             if (root.left.left == null && root.left.right == null)
                 sum = sum + root.left.val;
         }
-        sum = sum + sumOfLeftLeaves(root.right) + sumOfLeftLeaves(root.left);
-        return sum;
+        return sum + sumOfLeftLeaves(root.right) + sumOfLeftLeaves(root.left);
     }
 
     public int sumOfLeftLeave(TreeNode root) {

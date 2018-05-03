@@ -20,17 +20,17 @@ import com.fanchen.clearmind.concept.TreeNode;
  *           20     13
  */
 public class ConvertBSTtoGreaterTree {
-    int sum =0;
+
     public TreeNode convertBST(TreeNode root) {
-        helper(root);
+        int[] res = new int[1];
+        helper(root, res);
         return root;
     }
 
-    private void helper(TreeNode node) {
-        if(node == null) return;
-        helper(node.right);
-        node.val += sum;
-        sum = node.val;
-        helper(node.left);
+    public int helper(TreeNode node, int[] res) {
+        if (node == null) return res[0];
+        node.val += helper(node.right, res);
+        res[0] = node.val;
+        return helper(node.left, res);
     }
 }
