@@ -1,5 +1,10 @@
 package com.fanchen.clearmind.leetcode.tree;
 
+import com.fanchen.clearmind.concept.TreeNode;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Given a binary search tree (BST) with duplicates,
  * find all the mode(s) (the most frequently occurred element) in the given BST.
@@ -25,5 +30,38 @@ package com.fanchen.clearmind.leetcode.tree;
  *
  */
 public class FindModeinBinarySearchTree {
+    TreeNode preNode = null;
+    int count = 1;
+    int max = 0;
+    public int[] findMode(TreeNode root) {
+        if(root == null) return new int[0];
+        List<Integer> list = new ArrayList<Integer>();
+        helper(list, root);
+        int[] res = new int[list.size()];
+        for(int i=0;i<res.length;i++) res[i] = list.get(i);
+        return res;
+    }
+
+    private void helper(List<Integer> list, TreeNode root) {
+        if(root == null) return;
+        helper(list, root.left);
+
+        if(preNode !=null){
+            if(preNode.val == root.val){
+                count++;
+            }else{
+                count=1;
+            }
+        }
+        if(count > max){
+            max = count;
+            list.clear();
+            list.add(root.val);
+        }else if(count == max){
+            list.add(root.val);
+        }
+        preNode = root;
+        helper(list, root.right);
+    }
 
 }
