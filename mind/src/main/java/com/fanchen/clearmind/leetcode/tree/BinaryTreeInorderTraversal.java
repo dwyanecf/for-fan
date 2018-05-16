@@ -3,7 +3,7 @@ package com.fanchen.clearmind.leetcode.tree;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.fanchen.clearmind.TreeNode;
+import com.fanchen.clearmind.concept.TreeNode;
 
 /**
  * Given a binary tree, return the inorder traversal of its nodes' values.

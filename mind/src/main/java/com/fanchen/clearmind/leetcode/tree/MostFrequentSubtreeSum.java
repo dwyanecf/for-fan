@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import com.fanchen.clearmind.TreeNode;
+import com.fanchen.clearmind.concept.TreeNode;
 
 /**
  * Given the root of a tree, you are asked to find the most frequent subtree

@@ -1,11 +1,10 @@
 package com.fanchen.clearmind.testcase;
 
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
 import com.fanchen.clearmind.classto.test.EmpBusinessLogic;
 import com.fanchen.clearmind.classto.test.EmployeeDetails;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class TestEmployeeDetails {
 	EmpBusinessLogic empBusinessLogic = new EmpBusinessLogic();
