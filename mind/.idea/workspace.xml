@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5de91b5e-2483-448a-ad17-d737bb335ac8" name="Default" comment="String ++!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/classto/test/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/classto/test/MapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/MaximumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/MaximumSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/MinCostClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/MinCostClimbingStairs.java" afterDir="false" />
-    </list>
+    <list default="true" id="5de91b5e-2483-448a-ad17-d737bb335ac8" name="Default" comment="String ++!" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,11 +39,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindAndReplaceinString.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindAndReplaceinString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/FindAndReplaceinString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="311">
+              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShortestDistancetoaCharacter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/ShortestDistancetoaCharacter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShortEncodingofWords.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/ShortEncodingofWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,8 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/TwoSumIVBST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/InvertBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/TrimaBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/AverageofLevelsinBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/MergeTwoBinaryTree.java" />
@@ -173,6 +187,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/MinimumASCIIDeleteSumforTwoStrings.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/FlippinganImage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/FindAndReplaceinString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/ShortestDistancetoaCharacter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/ShortEncodingofWords.java" />
       </list>
     </option>
   </component>
@@ -459,12 +475,21 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="TODO" order="10" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32954547" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
@@ -472,7 +497,7 @@
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.21103896" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.21103896" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
@@ -512,20 +537,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/DiameterofBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" selection-start-line="22" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/ConvertBSTtoGreaterTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/BinaryTreePaths.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -883,8 +894,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/FindAndReplaceinString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="311">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/ShortestDistancetoaCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/ShortEncodingofWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
