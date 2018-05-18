@@ -42,7 +42,26 @@ package com.fanchen.clearmind.leetcode.stack;
 public class BaseballGame {
 
     public int calPoints(String[] ops) {
-
-        return 0;
+        int sum = 0;
+        int i =0;
+        int[] list = new int[ops.length];
+        for(String cur:ops){
+            if(cur.equals("C")){
+                sum = sum - list[--i];
+            }else if(cur.equals("D")){
+                list[i] = list[i-1]*2;
+                sum = sum + list[i];
+                i++;
+            }else if(cur.equals("+")){
+                list[i] = list[i-1] + list[i-2];
+                sum = sum + list[i];
+                i++;
+            }else{
+                list[i]= Integer.parseInt(cur);
+                sum = sum + list[i];
+                i++;
+            }
+        }
+        return sum;
     }
 }

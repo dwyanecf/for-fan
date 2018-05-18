@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5de91b5e-2483-448a-ad17-d737bb335ac8" name="Default" comment="String ++!" />
+    <list default="true" id="5de91b5e-2483-448a-ad17-d737bb335ac8" name="Default" comment="String ++!">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/BaseballGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/BaseballGame.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +17,8 @@
       <file leaf-file-name="NextGreaterElementI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/NextGreaterElementI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="386">
+              <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,7 +51,7 @@
       <file leaf-file-name="MyStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/MyStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="293">
               <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -66,11 +68,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseballGame.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseballGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/BaseballGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="177">
+              <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinStack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/MinStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+              <folding>
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#1180#1181#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/PathSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/MinimumDepthofBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/LowestCommonAncestorofaBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/BalancedBinaryTree.java" />
@@ -152,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/MyQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/MyStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/BaseballGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/MinStack.java" />
       </list>
     </option>
   </component>
@@ -549,13 +568,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/design/duck/interfaces/QuackBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/design/duck/implementations/FlyFlap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -897,16 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/NextGreaterElementI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
@@ -927,7 +929,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/MyStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
+        <state relative-caret-position="293">
           <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -943,10 +945,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/NextGreaterElementI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/BaseballGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        <state relative-caret-position="177">
+          <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/stack/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+          <folding>
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
