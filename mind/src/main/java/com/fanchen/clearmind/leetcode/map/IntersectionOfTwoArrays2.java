@@ -1,9 +1,7 @@
 package com.fanchen.clearmind.leetcode.map;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Given two arrays, write a function to compute their intersection.
@@ -18,16 +16,7 @@ import java.util.Set;
  */
 public class IntersectionOfTwoArrays2 {
 	public int[] intersection(int[] nums1, int[] nums2) {
-		Set<Integer> set = new HashSet<>();
-		List<Integer> answer = new ArrayList<>();
-		for (int num : nums1) {
-			set.add(num);
-		}
-		for (int num : nums2) {
-			if (set.remove(num)) {
-				answer.add(num);
-			}
-		}
-		return answer.stream().mapToInt(e -> e).toArray();
+		Set<Integer> set = Arrays.stream(nums1).boxed().collect(Collectors.toSet());
+		return   Arrays.stream(nums2).boxed().filter(i-> set.contains(i)).mapToInt(e -> e).toArray();
 	}
 }
