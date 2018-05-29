@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5de91b5e-2483-448a-ad17-d737bb335ac8" name="Default" comment="String ++!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/MaximumDepthofBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/MaximumDepthofBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/MaxAreaofIsland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/MaxAreaofIsland.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/DepthFirst/MaxAreaofIsland.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/DepthFirst/MaxAreaofIsland.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/contest/MagicSquaresInGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/contest/MagicSquaresInGrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/EmployeeImportance$Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/EmployeeImportance$Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/EmployeeImportance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/EmployeeImportance.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,29 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MaximumDepthofBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/MaximumDepthofBinaryTree.java">
+      <file leaf-file-name="EmployeeImportance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/EmployeeImportance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaxAreaofIsland.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/MaxAreaofIsland.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KeysandRooms.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/contest/KeysandRooms.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+            <state relative-caret-position="825">
+              <caret line="59" column="19" selection-start-line="45" selection-start-column="7" selection-end-line="59" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,15 +31,97 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SplitArrayintoFibonacciSequence.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/contest/SplitArrayintoFibonacciSequence.java">
+      <file leaf-file-name="SameTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/SameTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="54" column="55" lean-forward="true" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+            <state relative-caret-position="600">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="43" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FloodFill.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/FloodFill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConvertSortedArraytoBinarySearchTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/ConvertSortedArraytoBinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+              <folding>
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreePaths.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/BinaryTreePaths.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="41" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1392#1401#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SymmetricTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/SymmetricTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BalancedBinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/BalancedBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
+              <folding>
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PathSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/PathSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinimumDepthofBinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/MinimumDepthofBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeDetails.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/classto/test/EmployeeDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -85,15 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/design/duck/test/TestDucks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/ConsecutiveNumbersSum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/array/LongestContinuousIncreasingSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/MinCostClimbingStairs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/HouseRobber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/MaximumSubarray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/ClimbingStairs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/RangeSumQueryImmutable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/NumArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/PalindromicSubstrings.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/CountingBits.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/ArithmeticSlices.java" />
@@ -132,10 +191,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/backtracking/LetterCasePermutation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/backtracking/BinaryWatch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/MaximumDepthofBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/MaxAreaofIsland.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/contest/MagicSquaresInGrid.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/contest/KeysandRooms.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/contest/SplitArrayintoFibonacciSequence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/MaxAreaofIsland.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/EmployeeImportance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/SameTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/FloodFill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/ConvertSortedArraytoBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/BinaryTreePaths.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/SymmetricTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/BalancedBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/PathSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/MinimumDepthofBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -193,7 +261,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -245,17 +312,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="clearmind" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="contest" type="462c0819:PsiDirectoryNode" />
+              <item name="DepthFirst" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="maximu*tr&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.tree.MaximumDepthofBinaryTree&#10;BinaryTreeLevelOrderTraversa&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.tree.BinaryTreeLevelOrderTraversalII&#10;employee&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.EmployeeImportance.Employee&#10;Intersectionoftw&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.IntersectionOfTwoArrays&#10;Intersection&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/leetcode/map/IntersectionOfTwoArrays2.java&#10;twosumII&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.array.TwoSumII&#10;IntersectionOfTwoArrays&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.IntersectionOfTwoArrays2&#10;IntersectionOfTwoarra&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.IntersectionOfTwoArrays&#10;LongestUni&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.tree.LongestUnivaluePath&#10;word&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.string.MostCommonWord&#10;Besttime&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.array.BestTimeBuySellStock&#10;testduc&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/design/duck/test/TestDucks.java&#10;Map&lt;Integer,List&lt;Integer&gt;&gt;&#9;ACTION&#9;null&#10;First Unique&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.FirstUniqueCharacterInString" />
+    <property name="SearchEverywhereHistoryKey" value="EmployeeImportance&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.EmployeeImportance&#10;Employee&#9;PSI&#9;JAVA://com.fanchen.clearmind.classto.test.EmployeeDetails&#10;maximu*tr&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.tree.MaximumDepthofBinaryTree&#10;BinaryTreeLevelOrderTraversa&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.tree.BinaryTreeLevelOrderTraversalII&#10;employee&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.EmployeeImportance.Employee&#10;Intersectionoftw&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.IntersectionOfTwoArrays&#10;Intersection&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/leetcode/map/IntersectionOfTwoArrays2.java&#10;twosumII&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.array.TwoSumII&#10;IntersectionOfTwoArrays&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.IntersectionOfTwoArrays2&#10;IntersectionOfTwoarra&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.IntersectionOfTwoArrays&#10;LongestUni&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.tree.LongestUnivaluePath&#10;word&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.string.MostCommonWord&#10;Besttime&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.array.BestTimeBuySellStock&#10;testduc&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/design/duck/test/TestDucks.java&#10;Map&lt;Integer,List&lt;Integer&gt;&gt;&#9;ACTION&#9;null&#10;First Unique&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.FirstUniqueCharacterInString" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -278,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MagicSquaresInGrid">
+  <component name="RunManager" selected="Application.FloodFill">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -304,6 +372,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="FloodFill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fanchen.clearmind.leetcode.DepthFirst.FloodFill" />
+      <module name="mind" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fanchen.clearmind.leetcode.DepthFirst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="MagicSquaresInGrid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fanchen.clearmind.leetcode.contest.MagicSquaresInGrid" />
       <module name="mind" />
@@ -322,17 +401,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fanchen.clearmind.classto.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestDucks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fanchen.clearmind.design.duck.test.TestDucks" />
-      <module name="mind" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fanchen.clearmind.design.duck.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,19 +447,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.TestDucks" />
       <item itemvalue="Application.MapExample" />
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.ArrangingCoins" />
       <item itemvalue="Application.MagicSquaresInGrid" />
+      <item itemvalue="Application.FloodFill" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FloodFill" />
         <item itemvalue="Application.MagicSquaresInGrid" />
         <item itemvalue="Application.ArrangingCoins" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.MapExample" />
-        <item itemvalue="Application.TestDucks" />
       </list>
     </recent_temporary>
   </component>
@@ -423,43 +491,43 @@
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32954547" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32954547" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.21103896" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.09902597" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.25201938" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32954547" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25605816" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4090909" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.22889611" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.24959612" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32954547" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.24959612" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.21103896" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25201938" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32954547" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -469,9 +537,9 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32954547" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -499,81 +567,17 @@
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/FloodFill.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/FlippinganImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/MinimumASCIIDeleteSumforTwoStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/dp/ArithmeticSlices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/classto/test/MapExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/design/duck/ducks/Duck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/design/duck/ducks/MallardDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/design/duck/ducks/ModelDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/concept/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/concept/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/linkedlist/ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/concept/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -799,13 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/EmployeeImportance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/backtracking/BinaryWatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -820,13 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/MaximumDepthofBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/contest/MagicSquaresInGrid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -837,30 +827,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/MaxAreaofIsland.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/contest/SplitArrayintoFibonacciSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="349">
+          <caret line="58" column="50" lean-forward="true" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/contest/KeysandRooms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
+        <state relative-caret-position="371">
           <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/MaximumDepthofBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/MaxAreaofIsland.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/classto/test/EmployeeDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/EmployeeImportance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="42" column="6" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="42" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/EmployeeImportance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="59" column="19" selection-start-line="45" selection-start-column="7" selection-end-line="59" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/contest/SplitArrayintoFibonacciSequence.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/SameTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="54" column="55" lean-forward="true" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+        <state relative-caret-position="600">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="43" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/FloodFill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/ConvertSortedArraytoBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/BinaryTreePaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="41" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1392#1401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/SymmetricTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/BalancedBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/PathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/DepthFirst/MinimumDepthofBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
