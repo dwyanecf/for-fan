@@ -1,4 +1,4 @@
-package com.fanchen.clearmind.testcase;
+package com.fanchen.clearmind.classto.test;
 
 import org.junit.After;
 import org.junit.AfterClass;

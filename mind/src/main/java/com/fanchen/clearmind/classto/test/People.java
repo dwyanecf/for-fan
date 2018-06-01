@@ -1,4 +1,4 @@
-package com.fanchen.clearmind.concept;
+package com.fanchen.clearmind.classto.test;
 
 public class People {
 	

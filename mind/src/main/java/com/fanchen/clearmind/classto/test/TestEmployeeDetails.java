@@ -1,4 +1,4 @@
-package com.fanchen.clearmind.testcase;
+package com.fanchen.clearmind.classto.test;
 
 import com.fanchen.clearmind.classto.test.EmpBusinessLogic;
 import com.fanchen.clearmind.classto.test.EmployeeDetails;

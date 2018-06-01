@@ -1,10 +1,8 @@
-package com.fanchen.clearmind.ultimate.test;
+package com.fanchen.clearmind.classto.test;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
-
-import com.fanchen.clearmind.testcase.TestAssertions;
 
 public class TestRunner2 {
 	public static void main(String[] args) {

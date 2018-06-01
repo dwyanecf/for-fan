@@ -1,4 +1,4 @@
-package com.fanchen.clearmind.testcase;
+package com.fanchen.clearmind.classto.test;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
