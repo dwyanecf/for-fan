@@ -3,40 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5de91b5e-2483-448a-ad17-d737bb335ac8" name="Default" comment="String ++!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/ContainsDuplicateII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/ContainsDuplicateII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/CountPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/CountPrimes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/DailyTemperatures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/DistributeCandies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/DistributeCandies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/EmployeeImportance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/EmployeeImportance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/EncodeandDecodeTinyURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/EncodeandDecodeTinyURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/FindAllAnagramsInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/FindAllAnagramsInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/FindDuplicateFileInSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/FindDuplicateFileInSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/FindTheDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/FindTheDifference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/FirstUniqueCharacterInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/FirstUniqueCharacterInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/HappyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/IntersectionOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/IntersectionOfTwoArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/IntersectionOfTwoArrays2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/IntersectionOfTwoArrays2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/IslandPerimeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/IslandPerimeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/Jewels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/Jewels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/KDiffPairsInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/KDiffPairsInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/Keyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/LongestHarmoniousSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/LongestHarmoniousSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/LongestPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/LongestWordDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/LongestWordDictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/MinimumIndexSumTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/MinimumIndexSumTwoLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/NumberOfBoomerangs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/NumberOfBoomerangs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/RabbitsInForest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/RabbitsInForest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/SetMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/SetMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/SetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/ShortestCompletingWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/ShortestCompletingWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/SingleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/SortCharactersByFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/SortCharactersByFrequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/SubdomainVisitCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/SubdomainVisitCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/TopKFrequentElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/ValidAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/WordPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/WordPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/MostFrequentSubtreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/MostFrequentSubtreeSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +18,8 @@
       <file leaf-file-name="MostFrequentSubtreeSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/MostFrequentSubtreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+            <state relative-caret-position="282">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,44 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShortestCompletingWord.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ShortestCompletingWord.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/ShortestCompletingWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortCharactersByFrequency.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/SortCharactersByFrequency.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BackspaceStringCompare.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/BackspaceStringCompare.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandofStraights.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/HandofStraights.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="335">
+              <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -176,11 +110,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/EncodeandDecodeTinyURL2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/DailyTemperatures.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/FindDuplicateFileinSystem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/MostFrequentSubtreeSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/ShortestCompletingWord.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/BackspaceStringCompare.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/HandofStraights.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/SortCharactersByFrequency.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/MostFrequentSubtreeSum.java" />
       </list>
     </option>
   </component>
@@ -238,8 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,21 +235,13 @@
               <item name="map" type="462c0819:PsiDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mind" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clearmind" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="newproblems" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -499,7 +423,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2003231" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20355412" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="1" />
@@ -520,12 +444,12 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.21103896" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25201938" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32954547" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -535,7 +459,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32954547" />
@@ -587,9 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,9 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,9 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,9 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,9 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="48" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,16 +719,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/EncodeandDecodeTinyURL2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/ContainsDuplicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -831,23 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/FindDuplicateFileinSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/DailyTemperatures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -907,10 +789,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/SortCharactersByFrequency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/BackspaceStringCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="60" column="5" selection-start-line="39" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/HandofStraights.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/DailyTemperatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/EncodeandDecodeTinyURL2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/FindDuplicateFileinSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/MostFrequentSubtreeSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        <state relative-caret-position="282">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -919,35 +855,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/ShortestCompletingWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/BackspaceStringCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/HandofStraights.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/SortCharactersByFrequency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="335">
+          <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
         </state>
       </provider>
     </entry>

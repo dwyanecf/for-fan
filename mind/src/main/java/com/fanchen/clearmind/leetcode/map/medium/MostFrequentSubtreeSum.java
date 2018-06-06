@@ -50,8 +50,7 @@ public class MostFrequentSubtreeSum {
         int left = traverse(root.left, map);
         int right = traverse(root.right, map);
         int sum = root.val + left + right;
-        map.putIfAbsent(sum, 0);
-        map.put(sum, map.get(sum) + 1);
+        map.put(sum, map.getOrDefault(sum,0) + 1);
         max = Math.max(max, map.get(sum));
         return sum;
     }
