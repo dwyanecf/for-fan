@@ -1,66 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5de91b5e-2483-448a-ad17-d737bb335ac8" name="Default" comment="String ++!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/classto/test/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/concept/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/classto/test/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/classto/test/MapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/concept/Trie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/classto/test/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/classto/test/MapExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/classto/test/MapExample$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/classto/test/MapExample$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/classto/test/MapExample$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/classto/test/MapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/classto/test/MapExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/concept/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/concept/Lottery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/concept/People.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/concept/PeopleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/concept/Person$PersonBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/concept/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/concept/PrinterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/concept/ThisPointerTest$ThisPointerTestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/concept/ThisPointerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/DepthFirst/FloodFill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/DepthFirst/FloodFill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/ContainsDuplicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/ContainsDuplicateII.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/CountPrimes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/DailyTemperatures.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/DistributeCandies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/EmployeeImportance$Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/EmployeeImportance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/EncodeandDecodeTinyURL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/FindAllAnagramsInString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/FindDuplicateFileInSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/FindTheDifference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/FirstUniqueCharacterInString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/HappyNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/IntersectionOfTwoArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/IntersectionOfTwoArrays2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/IslandPerimeter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/Jewels.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/KDiffPairsInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/Keyboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/LongestHarmoniousSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/LongestPalindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/LongestWordDictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/MinimumIndexSumTwoLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/NumberOfBoomerangs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/RabbitsInForest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/SetMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/SetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/ShortestCompletingWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/SingleNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/SortCharactersByFrequency.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/SubdomainVisitCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/TopKFrequentElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/ValidAnagram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/map/WordPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/testcase/JunitAnnotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/testcase/TestAssertions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/testcase/TestEmployeeDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/ultimate/test/TestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/ultimate/test/TestRunner2.class" beforeDir="false" />
-    </list>
+    <list default="true" id="5de91b5e-2483-448a-ad17-d737bb335ac8" name="Default" comment="String ++!" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,11 +12,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FourSumII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FourSumII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/FourSumII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="229">
               <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrickWall.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/BrickWall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,9 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/backtracking/LetterCasePermutation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/backtracking/BinaryWatch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/tree/MaximumDepthofBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/contest/MagicSquaresInGrid.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/contest/KeysandRooms.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/contest/SplitArrayintoFibonacciSequence.java" />
@@ -165,6 +115,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/concept/TrieNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/ReplaceWords.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/FourSumII.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/BrickWall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/PeakIndexinaMountainArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/MaximizeDistancetoClosestPerson.java" />
       </list>
     </option>
   </component>
@@ -275,18 +228,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="clearmind" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mind" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clearmind" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="newproblems" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -551,27 +493,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/TwoPointer/MergeSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/TwoPointer/PalindromeLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/classto/test/EmployeeDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/classto/test/JunitAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -940,6 +861,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/MaximizeDistancetoClosestPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/newproblems/PeakIndexinaMountainArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/medium/BrickWall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
