@@ -31,6 +31,29 @@ public class FindMinimuminRotatedSortedArray {
                 hi = mid;
             }
         }
-        return lo;
+        return nums[lo];
+    }
+
+
+    public static int binarySearching(int[] nums, int target) {
+        if (nums.length < 1) return 0;
+        int lo = 0;
+        int hi = nums.length - 1;
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (nums[mid] > target) {
+                hi = mid - 1;
+            } else if (nums[mid] < target) {
+                lo = mid + 1;
+            } else {
+                return mid;
+            }
+        }
+        return -1;
+    }
+
+    public static void main(String[] args){
+      int[] nums =  new int[]{2,3,7,8};
+        System.out.println(binarySearching(nums,8));
     }
 }
