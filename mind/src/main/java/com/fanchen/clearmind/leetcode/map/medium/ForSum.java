@@ -16,8 +16,7 @@ public class ForSum {
             if (i > 0 && num[i] == num[i - 1]) continue;
             for (int j = i + 1; j < num.length - 2; j++) {
                 if (num[i] + num[j] + num[j + 1] + num[j + 2] > target) break;
-                if (num[i] + num[j] + num[num.length - 1] + num[num.length - 2] < target)
-                    continue;
+                if (num[i] + num[j] + num[n - 1] + num[n - 2] < target) continue;
                 if (j > i + 1 && num[j] == num[j - 1]) continue;
                 int lo = j + 1;
                 int hi = n - 1;
