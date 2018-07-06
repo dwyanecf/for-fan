@@ -24,7 +24,7 @@ public abstract class Duck {
         System.out.println("All ducks float, even decoys!");
     }
 
-    public void setFlyBehavior(FlyBehavior fb){
+    public void setFlyBehavior(FlyBehavior fb) {
         this.flyBehavior = fb;
     }
 
