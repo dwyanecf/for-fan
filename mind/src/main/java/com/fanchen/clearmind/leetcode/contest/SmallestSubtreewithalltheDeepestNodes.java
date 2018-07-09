@@ -30,7 +30,7 @@ public class SmallestSubtreewithalltheDeepestNodes {
             return helper(root.right, map, depth + 1);
         }
         if (root.right == null) {
-            return helper(root.left, map, depth + 1);
+            return helper(root.left, map, depth + 1 );
         }
         TreeNode leftResult = helper(root.left, map, depth + 1);
         TreeNode rightResult = helper(root.right, map, depth + 1);
