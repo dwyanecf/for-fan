@@ -19,13 +19,13 @@ package com.fanchen.clearmind.leetcode.string;
  */
 public class DetectCapital {
     public boolean detectCapitalUse(String word) {
-        return checkAllUpper(word)||checkAllLower(word)||checkWord(word);
+        return checkAllUpper(word) || checkAllLower(word) || checkWord(word);
     }
 
     private boolean checkWord(String word) {
         if (!Character.isUpperCase(word.charAt(0))) return false;
-        for(int i =1;i<word.length();i++){
-            if(!Character.isLowerCase(word.charAt(i))){
+        for (int i = 1; i < word.length(); i++) {
+            if (!Character.isLowerCase(word.charAt(i))) {
                 return false;
             }
         }
@@ -33,8 +33,8 @@ public class DetectCapital {
     }
 
     private boolean checkAllLower(String word) {
-        for(Character c:word.toCharArray()){
-            if(!Character.isLowerCase(c)){
+        for (Character c : word.toCharArray()) {
+            if (!Character.isLowerCase(c)) {
                 return false;
             }
         }
@@ -42,13 +42,11 @@ public class DetectCapital {
     }
 
     private boolean checkAllUpper(String word) {
-        for(Character c:word.toCharArray()){
-            if(!Character.isUpperCase(c)){
+        for (Character c : word.toCharArray()) {
+            if (!Character.isUpperCase(c)) {
                 return false;
             }
         }
         return true;
     }
-
-
 }

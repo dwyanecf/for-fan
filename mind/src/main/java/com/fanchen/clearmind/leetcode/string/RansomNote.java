@@ -23,4 +23,9 @@ public class RansomNote {
         }
         return true;
     }
+
+    public static void main(String[] args){
+        String test = "{'username' : 'xirby'}";
+        String replaced = test.replaceAll("'", "\'\'");
+    }
 }

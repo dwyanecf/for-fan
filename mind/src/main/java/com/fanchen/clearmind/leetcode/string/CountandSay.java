@@ -25,26 +25,43 @@ package com.fanchen.clearmind.leetcode.string;
  * Output: "1211"
  */
 public class CountandSay {
+    //    public String countAndSay(int n) {
+//        StringBuilder res = new StringBuilder("1");
+//        //calculating each from 1 to n
+//        for (int i = 1; i < n; i++) {
+//            char[] pre = res.toString().toCharArray();
+//            //reset current string to empty
+//            res.setLength(0);
+//            int count = 1;
+//            //append each digit
+//            for (int j = 1; j < pre.length; j++) {
+//                if (pre[j - 1] == pre[j]) {
+//                    count++;
+//                } else {
+//                    res.append(count).append(pre[j - 1]);
+//                    count = 1;
+//                }
+//            }
+//            //append last digit
+//            res.append(count).append(pre[pre.length - 1]);
+//        }
+//        return res.toString();
+//    }
     public String countAndSay(int n) {
-        StringBuilder res = new StringBuilder("1");
-        //calculating each from 1 to n
+        StringBuilder sb = new StringBuilder("1");
         for (int i = 1; i < n; i++) {
-            char[] pre = res.toString().toCharArray();
-            //reset current string to empty
-            res.setLength(0);
+            char[] pre = sb.toString().toCharArray();
+            sb.setLength(0);
             int count = 1;
-            //append each digit
-            for (int j = 1; j < pre.length; j++) {
+            for (int j = 1; j < sb.length(); j++) {
                 if (pre[j - 1] == pre[j]) {
                     count++;
                 } else {
-                    res.append(count).append(pre[j - 1]);
-                    count = 1;
+                    sb.append(count).append(pre[j - 1]);
                 }
             }
-            //append last digit
-            res.append(count).append(pre[pre.length - 1]);
+            sb.append(count).append(pre[pre.length - 1]);
         }
-        return res.toString();
+        return sb.toString();
     }
 }
