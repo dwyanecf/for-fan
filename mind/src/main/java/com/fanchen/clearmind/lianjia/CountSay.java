@@ -25,9 +25,30 @@ package com.fanchen.clearmind.lianjia;
  * Output: "1211"
  */
 public class CountSay {
-    public String countAndSay(int n) {
-        String res = null;
-        
-        return res;
+    public static String countAndSay(int n) {
+        String pre = "1";
+        if(n <=1) return pre;
+
+        for(int i=1;i<n;i++){
+            String cur = pre;
+            StringBuilder sb = new StringBuilder();
+            int counter =1;
+            for(int j=0;j<cur.length()-1;j++){
+                if(cur.charAt(j+1)==cur.charAt(j)){
+                    counter++;
+                }else{
+                    sb.append(counter).append(cur.charAt(j));
+                    counter=1;
+                }
+            }
+            sb.append(counter).append(cur.charAt(cur.length()-1));
+            pre = sb.toString();
+        }
+        return pre;
     }
+
+    public static void main(String[] args){
+        System.out.println(countAndSay(4));
+    }
+
 }
