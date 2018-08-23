@@ -1,53 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5de91b5e-2483-448a-ad17-d737bb335ac8" name="Default" comment="String ++!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/CountSay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/CountSay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.fanchen.clear/mind/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.fanchen.clear/mind/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/classto/test/EmpBusinessLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/classto/test/EmpBusinessLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/classto/test/EmployeeDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/classto/test/EmployeeDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/concept/CreateSqlInserts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/concept/CreateSqlInserts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/concept/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/concept/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/DepthFirst/MaxAreaofIsland.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/DepthFirst/MaxAreaofIsland.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/PriorityQueue/TopKFrequentWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/PriorityQueue/TopKFrequentWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/ArrayPartitionI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/ArrayPartitionI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/BestTimeBuySellStock2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/BestTimeBuySellStock2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/DegreeOfArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/DegreeOfArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/FindAllNumbersDisappearedInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/FindAllNumbersDisappearedInAnArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/ImageSmoother.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/ImageSmoother.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/MajorityElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/MaxConsecutiveOnes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/MaxConsecutiveOnes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/MaximumProductThreeNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/MaximumProductThreeNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/MissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/MissingNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/MoveZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/MoveZeroes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/OnebitAndTwobitCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/OnebitAndTwobitCharacters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/ReshapeMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/ReshapeMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/StreamSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/StreamSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/ToeplitzMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/array/ToeplitzMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/bfs/NumberOfDistinctIslands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/bfs/NumberOfDistinctIslands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/bfs/NumberOfDistinctIslands2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/bfs/NumberOfDistinctIslands2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/bfs/PacificAtlanticWaterFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/bfs/PacificAtlanticWaterFlow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/bit/Bitwise.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/bit/Bitwise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/dfs/MaxAreaofIsland.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/dfs/MaxAreaofIsland.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/Candy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/Candy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/ClimbingStair746.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/ClimbingStair746.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/CustomSortString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/CustomSortString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/DegreeOfArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/DegreeOfArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/MaxIncreasetoKeepCitySkyline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/MaxIncreasetoKeepCitySkyline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/NumberofLinesToWriteString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/NumberofLinesToWriteString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/ShortestCompletingWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/ShortestCompletingWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/SwapAdjacentLR.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/old/SwapAdjacentLR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/tree/BinaryTreeInorderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/tree/BinaryTreeInorderTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/tree/BinaryTreeInorderTraversal2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/tree/BinaryTreeInorderTraversal2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/tree/MagicDictionary$TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/tree/MagicDictionary$TrieNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/tree/MagicDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/tree/MagicDictionary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/tree/MostFrequentSubtreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/tree/MostFrequentSubtreeSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/tree/ReplaceWords2$TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/tree/ReplaceWords2$TrieNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/tree/ReplaceWords2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/leetcode/tree/ReplaceWords2.class" afterDir="false" />
-    </list>
+    <list default="true" id="5de91b5e-2483-448a-ad17-d737bb335ac8" name="Default" comment="String ++!" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,55 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UncommonWords.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/UncommonWords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountSay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/CountSay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="49" column="25" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="27" />
-              <folding>
-                <element signature="e#1318#1319#0" expanded="true" />
-                <element signature="e#1336#1337#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveDuplicates.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/RemoveDuplicates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddBinary.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/AddBinary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="30" column="26" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="27" />
-              <folding>
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -198,7 +104,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
@@ -245,8 +151,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,20 +186,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="clearmind" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mind" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clearmind" type="462c0819:PsiDirectoryNode" />
-              <item name="lianjia" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -460,8 +357,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32954547" />
@@ -472,36 +368,56 @@
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.25108224" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.251634" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16897655" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2552504" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.22835498" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.25326797" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info id="Designer" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.24959612" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32954547" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.25108224" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.22835498" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32954547" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16897655" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.24959612" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.251634" />
       <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22294022" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.251634" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -511,7 +427,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32954547" />
@@ -572,16 +488,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/UncommonWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/UncommonWords.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="28" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="28" />
           <folding>
@@ -600,6 +506,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/RomantoInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/BuyStock1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+          <folding>
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/MissingNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/MoveZeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/HammingDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/UncommonWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -607,6 +562,62 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/LowestCommonAncestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/CountSay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/UncommonWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/UncommonWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/UncommonWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/UncommonWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
