@@ -33,6 +33,7 @@ public class SerializeDeserializeBinaryTree {
 
     public static final String nullToken = "#";
     public static final String splitToken = ",";
+
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
         StringBuilder sb = new StringBuilder();
@@ -40,10 +41,10 @@ public class SerializeDeserializeBinaryTree {
         return sb.toString();
     }
 
-    public void helper(StringBuilder sb, TreeNode root){
-        if(root == null){
+    public void helper(StringBuilder sb, TreeNode root) {
+        if (root == null) {
             sb.append(nullToken).append(splitToken);
-        }else{
+        } else {
             sb.append(root.val).append(splitToken);
             helper(sb, root.left);
             helper(sb, root.right);
