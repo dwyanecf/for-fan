@@ -31,41 +31,43 @@ import com.fanchen.clearmind.concept.TreeNode;
  */
 public class SerializeDeserializeBinaryTree {
 
-    public static final String nullToken = "#";
-    public static final String splitToken = ",";
+    private final static String splitToken = ",";
+    private final static String nullToken = "#";
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
         StringBuilder sb = new StringBuilder();
-        helper(sb, root);
+        serializeHelper(sb, root);
         return sb.toString();
     }
 
-    public void helper(StringBuilder sb, TreeNode root) {
+    private void serializeHelper(StringBuilder sb, TreeNode root) {
         if (root == null) {
             sb.append(nullToken).append(splitToken);
         } else {
             sb.append(root.val).append(splitToken);
-            helper(sb, root.left);
-            helper(sb, root.right);
+            serializeHelper(sb, root.left);
+            serializeHelper(sb, root.right);
         }
     }
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        if (data == null || data.length() == 0) return null;
         String[] toks = data.split(splitToken);
         int[] index = new int[]{0};
-        return helper2(toks, index);
+        return deserializeHelper(toks, index);
     }
 
-    public TreeNode helper2(String[] toks, int[] index) {
+    private TreeNode deserializeHelper(String[] toks, int[] index) {
         if (index[0] == toks.length) return null;
         String cur = toks[index[0]++];
-        if (cur.equals(nullToken)) return null;
-        TreeNode node = new TreeNode(Integer.valueOf(cur));
-        node.left = helper2(toks, index);
-        node.right = helper2(toks, index);
-        return node;
+        if (cur.equals(nullToken)) {
+            return null;
+        }else{
+            TreeNode node = new TreeNode(Integer.parseInt(cur));
+            node.left = deserializeHelper(toks, index);
+            node.right = deserializeHelper(toks, index);
+            return node;
+        }
     }
 }
