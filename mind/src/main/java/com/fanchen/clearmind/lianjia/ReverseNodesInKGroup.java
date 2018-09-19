@@ -19,10 +19,10 @@ import com.fanchen.clearmind.concept.ListNode;
 public class ReverseNodesInKGroup {
 
     public ListNode reverseKGroup(ListNode head, int k) {
-        if (head == null) return null;
+        if (head == null) return head;
         int count = 0;
         ListNode pre = head;
-        while (count != k && pre != null) {
+        while (pre != null && count != k) {
             pre = pre.next;
             count++;
         }
