@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5de91b5e-2483-448a-ad17-d737bb335ac8" name="Default" comment="String ++!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/BestTimeToSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/BestTimeToSellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/PaintHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/PaintHouse.java" afterDir="false" />
-    </list>
+    <list default="true" id="5de91b5e-2483-448a-ad17-d737bb335ac8" name="Default" comment="String ++!" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +17,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MaximumSubarray.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/MaximumSubarray.java">
+      <file leaf-file-name="HouseRobber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/HouseRobber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="440">
+              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaintFence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/PaintFence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="38" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/NumArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="35" selection-end-column="47" />
+              <folding>
+                <element signature="e#749#750#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,10 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/string/MostCommonWord.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/string/NumberofSegmentsinaString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/string/RansomNote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/UncommonWords.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/HammingDistance.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/MoveZeroes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/RomantoInteger.java" />
@@ -118,6 +131,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/MaximumSubarray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/PaintHouse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/BestTimeToSellStock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/HouseRobber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/PaintFence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/RangeSumQueryImmutable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/NumArray.java" />
       </list>
     </option>
   </component>
@@ -536,15 +553,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/map/easy/UncommonWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/HammingDistance.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/RomantoInteger.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/MoveZeroes.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/ReverseLinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/MissingNumber.java" />
@@ -861,8 +869,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/MaximumSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="405">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/HouseRobber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/PaintFence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/NumArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="35" selection-end-column="47" />
+          <folding>
+            <element signature="e#749#750#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
