@@ -22,17 +22,17 @@ package com.fanchen.clearmind.GroupSolve.DP;
  */
 public class BestTimeToSellStock {
     public int maxProfit(int[] prices) {
-        int max = 0;
-        int cur = 0;
-        for(int i =1;i<prices.length;i++){
-            int difference = prices[i]-prices[i-1];
-            cur += difference;
-            if(cur>0){
-                max = Math.max(max, cur);
-            }else{
-                cur = 0;
-            }
-        }
-        return max;
+      int max = 0;
+      int cur = 0;
+      for(int i =1;i<prices.length;i++){
+          int diff = prices[i] - prices[i-1];
+          cur += diff;
+          if(cur>0){
+              max = Math.max(cur,max);
+          }else{
+              cur =0;
+          }
+      }
+      return max;
     }
 }
