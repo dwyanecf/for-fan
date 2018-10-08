@@ -1,4 +1,4 @@
-package com.fanchen.clearmind.GroupSolve.DP;
+package com.fanchen.clearmind.GroupSolve.DP.easy;
 
 /**
  * Say you have an array for which the ith element is the price of a given stock on day i.

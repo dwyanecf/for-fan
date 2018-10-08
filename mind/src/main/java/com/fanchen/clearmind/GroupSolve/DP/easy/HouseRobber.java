@@ -1,4 +1,4 @@
-package com.fanchen.clearmind.GroupSolve.DP;
+package com.fanchen.clearmind.GroupSolve.DP.easy;
 
 /**
  * You are a professional robber planning to rob houses along a street.

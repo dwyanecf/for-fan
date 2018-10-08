@@ -1,4 +1,4 @@
-package com.fanchen.clearmind.GroupSolve.DP;
+package com.fanchen.clearmind.GroupSolve.DP.easy;
 
 /**
  * Given an integer array nums,

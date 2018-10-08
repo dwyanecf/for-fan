@@ -1,4 +1,4 @@
-package com.fanchen.clearmind.GroupSolve.DP;
+package com.fanchen.clearmind.GroupSolve.DP.easy;
 
 /**
  * There is a fence with n posts, each post can be painted with one of the k colors.
