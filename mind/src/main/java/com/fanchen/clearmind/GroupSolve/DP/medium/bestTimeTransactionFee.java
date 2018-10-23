@@ -25,21 +25,16 @@ package com.fanchen.clearmind.GroupSolve.DP.medium;
  * 0 <= fee < 50000.
  */
 public class bestTimeTransactionFee {
-    public int maxProfitSolution1(int[] prices, int fee) {
-        if (prices.length <= 1) return 0;
+    public int maxProfit(int[] prices, int fee) {
+        if (prices == null || prices.length == 0) return 0;
         int n = prices.length;
-        int buy[] = new int[n];
-        int sell[] = new int[n];
-        buy[0] = prices[0] + fee;
-        // sell[0] = 0; have nothing to sell
+        int[] buy = new int[n];
+        int[] sell = new int[n];
+        buy[0] = -prices[0] - fee;
         for (int i = 1; i < n; i++) {
-            buy[i] = Math.min(buy[i - 1], prices[i] + fee - sell[i - 1]); // keep the same as day i-1, or buy from sell status at day i-1
-            sell[i] = Math.max(sell[i - 1], prices[i] - buy[i - 1]); // keep the same as day i-1, or sell from buy status at day i-1
+            buy[i] = Math.max(buy[i - 1], sell[i - 1] - prices[i] - fee);
+            sell[i] = Math.max(sell[i - 1], prices[i] + buy[i - 1]);
         }
         return sell[n - 1];
-    }
-
-    public static void main(String[] args){
-
     }
 }
