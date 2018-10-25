@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5de91b5e-2483-448a-ad17-d737bb335ac8" name="Default" comment="String ++!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/GroupSolve/DP/medium/StoneGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanchen/clearmind/GroupSolve/DP/medium/StoneGame.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,34 +20,35 @@
     <session id="125088570">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="32" />
+          <entry key="java" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="32" />
+          <entry key="JAVA" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1953" />
+          <entry key="java" value="2485" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1953" />
+          <entry key="JAVA" value="2485" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -57,10 +57,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/medium/StoneGame.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/medium/MaximumLengthofPairChain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="234">
+              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -105,8 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/Trie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/WordSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/LowestCommonAncestor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/LowestCommonAncestorBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/SearchRotatedSortedArray.java" />
@@ -156,6 +154,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/array/sortarraybyparity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/leetcode/array/monotonicArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/medium/bestTimeTransactionFee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/medium/MinimumASCIIDeleteSumforTwoStrings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/medium/MaximumLengthofPairChain.java" />
       </list>
     </option>
   </component>
@@ -167,6 +167,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
@@ -213,7 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,12 +281,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="RandomListNode&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/concept/RandomListNode.java&#10;randomli&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/concept/RandomListNode.java&#10;bina&#9;PSI&#9;JAVA://com.fanchen.clearmind.concept.BinarySearch&#10;lowes&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.tree.LowestCommonAncestorofaBinarySearchTree&#10;BinaryTreeLeve&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/leetcode/tree/BinaryTreeLevelOrderTraversalII.java&#10;validAnagram&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/leetcode/map/ValidAnagram.java&#10;EmployeeImportance&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.EmployeeImportance&#10;Employee&#9;PSI&#9;JAVA://com.fanchen.clearmind.classto.test.EmployeeDetails&#10;maximu*tr&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.tree.MaximumDepthofBinaryTree&#10;BinaryTreeLevelOrderTraversa&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.tree.BinaryTreeLevelOrderTraversalII&#10;employee&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.EmployeeImportance.Employee&#10;Intersectionoftw&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.IntersectionOfTwoArrays&#10;Intersection&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/leetcode/map/IntersectionOfTwoArrays2.java&#10;twosumII&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.array.TwoSumII&#10;IntersectionOfTwoArrays&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.IntersectionOfTwoArrays2&#10;IntersectionOfTwoarra&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.IntersectionOfTwoArrays&#10;LongestUni&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.tree.LongestUnivaluePath&#10;word&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.string.MostCommonWord&#10;Besttime&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.array.BestTimeBuySellStock&#10;testduc&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/design/duck/test/TestDucks.java&#10;Map&lt;Integer,List&lt;Integer&gt;&gt;&#9;ACTION&#9;null&#10;First Unique&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.FirstUniqueCharacterInString" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540309079125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540501916426" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -309,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bestTimeTransactionFee">
+  <component name="RunManager" selected="Application.MaximumLengthofPairChain">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -330,13 +331,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinCostClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fanchen.clearmind.GroupSolve.DP.easy.MinCostClimbingStairs" />
+    <configuration name="MaximumLengthofPairChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fanchen.clearmind.GroupSolve.DP.medium.MaximumLengthofPairChain" />
       <module name="mind" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fanchen.clearmind.GroupSolve.DP.easy.*" />
+          <option name="PATTERN" value="com.fanchen.clearmind.GroupSolve.DP.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,13 +345,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseNodesInKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fanchen.clearmind.lianjia.ReverseNodesInKGroup" />
+    <configuration name="MinCostClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fanchen.clearmind.GroupSolve.DP.easy.MinCostClimbingStairs" />
       <module name="mind" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fanchen.clearmind.lianjia.*" />
+          <option name="PATTERN" value="com.fanchen.clearmind.GroupSolve.DP.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,19 +408,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseNodesInKGroup" />
       <item itemvalue="Application.MinCostClimbingStairs" />
       <item itemvalue="Application.StoneGame" />
       <item itemvalue="Application.Keyboards" />
       <item itemvalue="Application.bestTimeTransactionFee" />
+      <item itemvalue="Application.MaximumLengthofPairChain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumLengthofPairChain" />
         <item itemvalue="Application.bestTimeTransactionFee" />
         <item itemvalue="Application.Keyboards" />
         <item itemvalue="Application.StoneGame" />
         <item itemvalue="Application.MinCostClimbingStairs" />
-        <item itemvalue="Application.ReverseNodesInKGroup" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +447,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
+    <frame x="1" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -457,16 +458,16 @@
       <window_info content_ui="combo" id="Project" order="5" weight="0.20355412" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32901135" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50080776" side_tool="true" weight="0.38249594" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32901135" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32843137" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.24836601" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.24797407" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39708266" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32954547" />
+      <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.49919224" weight="0.17504051" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -483,19 +484,19 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20355412" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20355412" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32901135" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50080776" side_tool="true" weight="0.38249594" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32901135" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32843137" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32843137" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.24836601" />
-      <window_info anchor="bottom" id="Debug" order="7" visible="true" weight="0.39708266" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39708266" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="TODO" order="10" sideWeight="0.49919224" visible="true" weight="0.17504051" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -605,20 +606,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/LetterCombinations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/lianjia/NumberIslands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/concept/TrieNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -964,8 +951,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/medium/StoneGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="254">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/medium/MinimumASCIIDeleteSumforTwoStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/medium/MaximumLengthofPairChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
         </state>
       </provider>
     </entry>
