@@ -33,12 +33,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="34" />
+          <entry key="java" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="34" />
+          <entry key="JAVA" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -59,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/medium/MaximumLengthofPairChain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="226">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -287,7 +287,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="RandomListNode&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/concept/RandomListNode.java&#10;randomli&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/concept/RandomListNode.java&#10;bina&#9;PSI&#9;JAVA://com.fanchen.clearmind.concept.BinarySearch&#10;lowes&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.tree.LowestCommonAncestorofaBinarySearchTree&#10;BinaryTreeLeve&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/leetcode/tree/BinaryTreeLevelOrderTraversalII.java&#10;validAnagram&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/leetcode/map/ValidAnagram.java&#10;EmployeeImportance&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.EmployeeImportance&#10;Employee&#9;PSI&#9;JAVA://com.fanchen.clearmind.classto.test.EmployeeDetails&#10;maximu*tr&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.tree.MaximumDepthofBinaryTree&#10;BinaryTreeLevelOrderTraversa&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.tree.BinaryTreeLevelOrderTraversalII&#10;employee&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.EmployeeImportance.Employee&#10;Intersectionoftw&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.IntersectionOfTwoArrays&#10;Intersection&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/leetcode/map/IntersectionOfTwoArrays2.java&#10;twosumII&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.array.TwoSumII&#10;IntersectionOfTwoArrays&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.IntersectionOfTwoArrays2&#10;IntersectionOfTwoarra&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.IntersectionOfTwoArrays&#10;LongestUni&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.tree.LongestUnivaluePath&#10;word&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.string.MostCommonWord&#10;Besttime&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.array.BestTimeBuySellStock&#10;testduc&#9;FILE&#9;file:///Users/fan/git/for-fan/mind/src/main/java/com/fanchen/clearmind/design/duck/test/TestDucks.java&#10;Map&lt;Integer,List&lt;Integer&gt;&gt;&#9;ACTION&#9;null&#10;First Unique&#9;PSI&#9;JAVA://com.fanchen.clearmind.leetcode.map.FirstUniqueCharacterInString" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540501916426" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540502078620" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -455,7 +455,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.20355412" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20355412" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50080776" side_tool="true" weight="0.38249594" />
@@ -463,7 +463,7 @@
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32843137" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.24797407" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.24797407" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39708266" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -965,8 +965,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fanchen/clearmind/GroupSolve/DP/medium/MaximumLengthofPairChain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="226">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
