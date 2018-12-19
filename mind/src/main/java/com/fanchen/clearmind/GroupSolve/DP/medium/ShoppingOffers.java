@@ -48,7 +48,7 @@ public class ShoppingOffers {
         int local_min = directPurchase(price, needs);
         for (int i = pos; i < special.size(); i++) {
             List<Integer> offer = special.get(i);
-            List<Integer> temp = new ArrayList<Integer>();
+            List<Integer> temp = new ArrayList<>();
             for (int j = 0; j < needs.size(); j++) {
                 if (needs.get(j) < offer.get(j)) { // check if the current offer is valid
                     temp = null;
