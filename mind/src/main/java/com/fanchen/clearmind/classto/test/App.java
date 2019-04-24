@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	
+    	Long yardNum = 700L;
+        System.out.println( yardNum.toString() );
     }
 }
