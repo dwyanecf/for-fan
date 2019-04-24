@@ -15,5 +15,6 @@ public class TestDucks {
 //        model.performFly();
         model.setFlyBehavior(new FlyFlap());
         model.performFly();
+
     }
 }

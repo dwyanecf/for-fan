@@ -12,13 +12,13 @@ package com.fanchen.clearmind.leetcode.string;
  */
 public class NumberofSegmentsinaString {
     public int countSegments(String s) {
-        if(s==null ||s.trim().length()==0) return 0;
-        s= s.trim();
-        int count=1;
-        for(int i=1;i<s.length();i++)
-        {
-            if(s.charAt(i)!=' ' && s.charAt(i-1)==' ')
+        if (s == null || s.trim().length() == 0) return 0;
+        s = s.trim();
+        int count = 1;
+        for (int i = 1; i < s.length(); i++) {
+            if (s.charAt(i) != ' ' && s.charAt(i - 1) == ' ') {
                 count++;
+            }
         }
         return count;
     }

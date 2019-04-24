@@ -36,6 +36,7 @@ package com.fanchen.clearmind.leetcode.contest;
  */
 public class GoatLatin {
     public String toGoatLatin(String S) {
+
         String[] words = S.split(" ");
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < words.length; i++) {
