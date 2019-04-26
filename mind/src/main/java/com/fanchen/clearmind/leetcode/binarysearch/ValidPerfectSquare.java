@@ -14,12 +14,14 @@ package com.fanchen.clearmind.leetcode.binarysearch;
  */
 public class ValidPerfectSquare {
 	public boolean isPerfectSquare(int num) {
+		if (num == 1)
+			return true;
 		int lo = 1;
 		int hi = num;
-		while (lo <= hi) {
+		while (lo < hi) {
 			int mid = lo + (hi - lo) / 2;
 			if (mid > num / mid) {
-				hi = mid - 1;
+				hi = mid;
 			} else if (mid < num / mid) {
 				lo = mid + 1;
 			} else {

@@ -18,7 +18,9 @@ package com.fanchen.clearmind.leetcode.binarysearch;
  * <p>
  * Input: letters = ["c", "f", "j"] target = "j" Output: "c"
  * <p>
- * Input: letters = ["c", "f", "j"] target = "k" Output: "c" Note: letters has a
+ * Input: letters = ["c", "f", "j"] target = "k" Output: "c" 
+ * 
+ * Note: letters has a
  * length in range [2, 10000]. letters consists of lowercase letters, and
  * contains at least 2 unique letters. target is a lowercase letter.
  */

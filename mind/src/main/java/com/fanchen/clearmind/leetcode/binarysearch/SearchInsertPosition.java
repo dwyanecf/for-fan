@@ -24,6 +24,7 @@ public class SearchInsertPosition {
 		searchInsert(nums, 4);
 	}
 
+	// 此为右闭
 	public static int searchInsert(int[] nums, int target) {
 
 		int n = nums.length;

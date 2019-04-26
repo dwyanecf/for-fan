@@ -34,6 +34,20 @@ import java.util.TreeSet;
  * cases are there is no left or right heater. Get MAX value among distances in
  * step 2. It's the answer. Time complexity: max(O(nlogn), O(mlogn)) - m is the
  * length of houses, n is the length of heaters.
+ * 
+
+Example 1:
+
+Input: [1,2,3],[2]
+Output: 1
+Explanation: The only heater was placed in the position 2, and if we use the radius 1 standard, then all the houses can be warmed.
+ 
+
+Example 2:
+
+Input: [1,2,3,4],[1,4]
+Output: 1
+Explanation: The two heater was placed in the position 1 and 4. We need to use radius 1 standard, then all the houses can be warmed.
  */
 public class Heaters {
 	public int findRadius(int[] houses, int[] heaters) {
@@ -45,8 +59,7 @@ public class Heaters {
 		for (int h : houses) {
 			Integer lower = set.floor(h);
 			Integer higher = set.ceiling(h);
-			res = Math.max(res, Math.min(lower == null ? Integer.MAX_VALUE : h - lower,
-					higher == null ? Integer.MAX_VALUE : higher - h));
+			res = Math.max(res, Math.min(lower == null ? Integer.MAX_VALUE : h - lower, higher == null ? Integer.MAX_VALUE : higher - h));
 		}
 		return res;
 	}
