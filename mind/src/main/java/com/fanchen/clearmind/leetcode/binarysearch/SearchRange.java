@@ -17,12 +17,12 @@ public class SearchRange {
 		while (low < high) {
 			int mid = low + ((high - low) >> 1);
 			// low <= mid < high
-			if (A[mid] < target) {
-				low = mid + 1;
+			if (A[mid] >= target) {
+				high = mid;
 			} else {
 				// should not be mid-1 when A[mid]==target.
 				// could be mid even if A[mid]>target because mid<high.
-				high = mid;
+				low = mid + 1;
 			}
 		}
 		return low;

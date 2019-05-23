@@ -10,9 +10,13 @@ package com.fanchen.clearmind.leetcode.binarysearch;
  * 
  * Example 1:
  * 
- * Input: [0,1,0] Output: 1 Example 2:
+ * Input: [0,1,0] Output: 1 
  * 
- * Input: [0,2,1,0] Output: 1 Note:
+ * Example 2:
+ * 
+ * Input: [0,2,1,0] Output: 1 
+ * 
+ * Note:
  * 
  * 3 <= A.length <= 10000 0 <= A[i] <= 10^6 A is a mountain, as defined above.
  * 
