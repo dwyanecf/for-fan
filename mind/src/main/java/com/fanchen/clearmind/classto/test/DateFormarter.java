@@ -11,16 +11,15 @@ public class DateFormarter {
 
 	private static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
 
-	public static String format(String date, String pattern, String timeZone) throws ParseException {
-		TimeZone tz = TimeZone.getTimeZone(timeZone);
+	public static String format(String date, String pattern) throws ParseException {
+		TimeZone tz = TimeZone.getDefault();
+		sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
 		Date date1 = sdf.parse(date);
 		return DateFormatUtils.format(date1, pattern, tz);
 	}
 
 	public static void main(String[] args) throws ParseException {
-		System.out.println(format("2019-05-14T20:15:00.000Z", "dd.MM.yyyy", "CET"));
-		
-		//2019-05-13
-		
+		System.out.println(format("2019-06-03T23:45:00.000Z", "dd.MM.yyyy"));
+		System.out.println(format("2019-06-03T20:45:00.000Z", "dd.MM.yyyy"));
 	}
 }
