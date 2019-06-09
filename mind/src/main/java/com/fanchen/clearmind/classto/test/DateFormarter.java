@@ -20,6 +20,6 @@ public class DateFormarter {
 
 	public static void main(String[] args) throws ParseException {
 		System.out.println(format("2019-06-03T23:45:00.000Z", "dd.MM.yyyy"));
-		System.out.println(format("2019-06-03T20:45:00.000Z", "dd.MM.yyyy"));
+		System.out.println(format("2019-06-03T00:00:00.000Z", "dd.MM.yyyy"));
 	}
 }
