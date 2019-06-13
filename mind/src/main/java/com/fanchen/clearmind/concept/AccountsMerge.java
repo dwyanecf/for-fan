@@ -1,6 +1,11 @@
 package com.fanchen.clearmind.concept;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
 
 public class AccountsMerge {
     public static List<List<String>> accountsMerge(List<List<String>> acts) {
