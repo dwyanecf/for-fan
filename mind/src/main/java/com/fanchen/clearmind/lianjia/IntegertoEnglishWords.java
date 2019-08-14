@@ -1,7 +1,7 @@
 package com.fanchen.clearmind.lianjia;
 
 /**
- * Convert a non-negative integer to its english words representation.
+ * Convert a non-negative integer to its English words representation.
  * Given input is guaranteed to be less than 231 - 1.
  *
  * Example 1:
@@ -41,6 +41,7 @@ public class IntegertoEnglishWords {
         if (num < 20) {
             sb.append(lessThan20[num]);
         } else {
+        	//between 99 to 20
             sb.append(tenthWord[num / 10 - 2] + " ");
             sb.append(lessThan20[num % 10]);
         }
