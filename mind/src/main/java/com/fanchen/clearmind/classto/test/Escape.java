@@ -3,6 +3,8 @@
  */
 package com.fanchen.clearmind.classto.test;
 
+import java.io.UnsupportedEncodingException;
+
 import org.apache.commons.lang3.StringEscapeUtils;
 
 /**
@@ -11,9 +13,16 @@ import org.apache.commons.lang3.StringEscapeUtils;
  */
 public class Escape {
 
-	public static void main(String[] args) {
-		String text = "IZZY O\\u001aKEEFE                  ";
+	public static void main(String[] args) throws UnsupportedEncodingException {
+		String text = "KELLY\\u001AS TRADINGS                  ";
 		text = StringEscapeUtils.unescapeJava(text);
 		System.out.println("text: " + text);
+
+		String str1 = "\\u001a";
+		byte[] arr = str1.getBytes("UTF-8");
+		System.out.println("\\u001a");
+		for (byte a : arr) {
+			System.out.print(a);
+		}
 	}
 }

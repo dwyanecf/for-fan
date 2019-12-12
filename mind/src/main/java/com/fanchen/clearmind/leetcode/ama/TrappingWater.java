@@ -19,7 +19,8 @@ public class TrappingWater {
 			leftmax = Math.max(leftmax, A[lo]);
 			rightmax = Math.max(rightmax, A[hi]);
 			if (leftmax < rightmax) {
-				max += (leftmax - A[lo]); // leftmax is smaller than rightmax, so the (leftmax-A[a]) water can be stored
+				max += (leftmax - A[lo]);
+				// leftmax is smaller than rightmax, so the (leftmax-A[a]) water can be stored
 				lo++;
 			} else {
 				max += (rightmax - A[hi]);
