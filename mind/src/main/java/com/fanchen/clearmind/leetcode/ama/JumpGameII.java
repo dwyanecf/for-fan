@@ -17,21 +17,23 @@ public class JumpGameII {
 	 * last index.
 	 */
 	public static int jump(int[] nums) {
-		int steps = 0;
-		int curEnd = 0, Farthest = 0;
-		for (int i = 0; i < nums.length - 1; i++) {
-			Farthest = Math.max(Farthest, nums[i] + i);
-			if (i == curEnd) {
-				steps++;
-				curEnd = Farthest;
+		int res = 0;
+		int cur = 0;
+		int farthest = 0;
+		for (int i = 0; i < nums.length; i++) {
+			farthest = Math.max(farthest, nums[i] + i);
+			if (cur == i) {
+				res++;
+				cur = farthest;
 			}
-			if (curEnd >= nums.length - 1)
+			if (cur >= nums.length - 1) {
 				break;
+			}
 		}
-		return steps;
+		return res;
 	}
-	
+
 	public static void main(String[] args) {
-		jump(new int[]{2,3,1,1,4});
+		jump(new int[] { 2, 3, 1, 1, 4 });
 	}
 }
