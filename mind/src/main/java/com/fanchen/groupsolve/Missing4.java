@@ -39,7 +39,7 @@ public class Missing4 {
 
 	// Driver code
 	public static void main(String[] args) {
-		int[] arr = { 1, 5 };
+		int[] arr = { 1, 7, 3, 12, 5, 10, 8, 4, 9 };
 		missing4(arr);
 	}
 }
