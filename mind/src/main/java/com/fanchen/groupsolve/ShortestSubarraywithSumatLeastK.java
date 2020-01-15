@@ -3,6 +3,9 @@
  */
 package com.fanchen.groupsolve;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 /**
  * @author fachen
  *
@@ -31,7 +34,29 @@ public class ShortestSubarraywithSumatLeastK {
 	 * @return
 	 */
 	public int shortestSubarray(int[] A, int K) {
-		return 0;
+		if (A == null || A.length == 0)
+			return -1;
+		int n = A.length;
+		int[] B = new int[n + 1];
+		for (int i = 0; i < n; i++) {
+			B[i + 1] = B[i] + A[i];
+		}
+		Deque<Integer> d = new ArrayDeque<Integer>();
+		int res = n + 1;
+		for (int i = 0; i <= n; i++) {
+			while (d.size() != 0 && B[i] - B[d.getFirst()] >= K) {
+				res = Math.min(res, i - d.pollFirst());
+			}
+			while (d.size() != 0 && B[i] <= B[d.getLast()]) {
+				d.pollLast();
+			}
+			d.offer(i);
+		}
+		return res > n ? -1 : res;
 	}
 
+	public static void main(String[] args) {
+		ShortestSubarraywithSumatLeastK obj = new ShortestSubarraywithSumatLeastK();
+		obj.shortestSubarray(new int[] { 2, -1, 2 }, 3);
+	}
 }
