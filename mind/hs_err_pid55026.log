@@ -1,0 +1,42 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x000000010f88dd68, pid=55026, tid=14083
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_91-b14) (build 1.8.0_91-b14)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.91-b14 mixed mode bsd-amd64 compressed oops)
+# Problematic frame:
+# C  [libjdwp.dylib+0x21d68]  jvmtiAllocate+0x1d
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007fe770829800):  JavaThread "JDWP Command Reader" daemon [_thread_in_native, id=14083, stack(0x0000700004ec2000,0x0000700004fc2000)]
+
+siginfo: si_signo: 11 (SIGSEGV), si_code: 1 (SEGV_MAPERR), si_addr: 0x0000000000000000
+
+Registers:
+RAX=0x0000000000000000, RBX=0x000000010fffb38a, RCX=0x0000000000000009, RDX=0x0000700004fc1c09
+RSP=0x0000700004fc1bc0, RBP=0x0000700004fc1bf0, RSI=0x000000000000f000, RDI=0x0000000000000022
+R8 =0x0000700004fc1c09, R9 =0x0000000000000000, R10=0x00007fe770411f00, R11=0x00007fff6c50a8a5
+R12=0x000000010f893e7a, R13=0x00007fe770402020, R14=0x000000000000000a, R15=0x000000010f892891
+RIP=0x000000010f88dd68, EFLAGS=0x0000000000010206, ERR=0x0000000000000004
+  TRAPNO=0x000000000000000e
+
+Top of Stack: (sp=0x0000700004fc1bc0)
+0x0000700004fc1bc0:   0000000000000004 ffffffffffffffe7
+0x0000700004fc1bd0:   0000000000000000 0000000000000110
+0x0000700004fc1be0:   000000010fffb38a 000000000000000a
+0x0000700004fc1bf0:   0000700004fc1d20 000000010fffa792
+0x0000700004fc1c00:   0000700004fc1c50 6c6966206461429b
+0x0000700004fc1c10:   6972637365642065 00000000726f7470
+0x0000700004fc1c20:   0000000000000000 0000000000000000
+0x0000700004fc1c30:   0000000000000000 0000000000000000
+0x0000700004fc1c40:   0000000000000000 0000000000000000
