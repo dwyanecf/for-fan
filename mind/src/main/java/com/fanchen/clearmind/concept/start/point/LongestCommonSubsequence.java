@@ -4,7 +4,7 @@
 package com.fanchen.clearmind.concept.start.point;
 
 /**
- * @author fachen Given two strings text1 and text2, return the length of their
+ * @author Fan Chen Given two strings text1 and text2, return the length of their
  *         longest common subsequence.
  * 
  *         A subsequence of a string is a new string generated from the original

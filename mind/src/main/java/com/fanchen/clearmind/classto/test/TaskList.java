@@ -4,7 +4,7 @@
 package com.fanchen.clearmind.classto.test;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class TaskList {

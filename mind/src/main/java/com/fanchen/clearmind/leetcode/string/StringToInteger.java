@@ -4,7 +4,7 @@
 package com.fanchen.clearmind.leetcode.string;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class StringToInteger {

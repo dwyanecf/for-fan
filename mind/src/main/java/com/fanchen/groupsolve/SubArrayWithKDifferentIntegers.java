@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class SubArrayWithKDifferentIntegers {

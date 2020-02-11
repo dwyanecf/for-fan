@@ -18,7 +18,7 @@ k = 8,
 return 13.
 Note: 
 You may assume k is always valid, 1 ≤ k ≤ n2.
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class KthSmallestElementinSortedMatrix {

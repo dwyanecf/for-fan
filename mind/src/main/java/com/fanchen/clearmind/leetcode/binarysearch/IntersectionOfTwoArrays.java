@@ -14,7 +14,7 @@ import java.util.Set;
  * 
  * Each element in the result must be unique. The result can be in any order.
  * 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class IntersectionOfTwoArrays {

@@ -10,7 +10,7 @@ call isBadVersion(4) -> true
 
 Then 4 is the first bad version. 
 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class FirstBadVersion {

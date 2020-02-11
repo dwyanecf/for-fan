@@ -45,7 +45,7 @@ import java.util.Map;
  * increasing. 1 <= timestamp <= 10^7 TimeMap.set and TimeMap.get functions will
  * be called a total of 120000 times (combined) per test case.
  * 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class TimeMap {

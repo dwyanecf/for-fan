@@ -30,7 +30,7 @@ import java.util.List;
  * word consists of lowercase English letters. 1 <= first.length, second.length
  * <= 10 first and second consist of lowercase English letters.
  * 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class OccurrencesAfterBigram {

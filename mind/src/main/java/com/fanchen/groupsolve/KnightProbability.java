@@ -6,7 +6,7 @@ package com.fanchen.groupsolve;
 import java.util.Arrays;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class KnightProbability {

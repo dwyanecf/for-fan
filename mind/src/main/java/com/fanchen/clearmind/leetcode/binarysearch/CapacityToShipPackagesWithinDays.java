@@ -36,7 +36,7 @@ package com.fanchen.clearmind.leetcode.binarysearch;
  * 
  * 1 <= D <= weights.length <= 50000 1 <= weights[i] <= 500
  * 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class CapacityToShipPackagesWithinDays {

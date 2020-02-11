@@ -8,7 +8,7 @@ import java.util.Stack;
 import com.fanchen.clearmind.concept.TreeNode;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  *
  *         

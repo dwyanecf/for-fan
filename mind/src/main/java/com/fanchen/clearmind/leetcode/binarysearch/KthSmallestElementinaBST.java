@@ -17,7 +17,7 @@ import com.fanchen.clearmind.concept.TreeNode;
  * you need to find the kth smallest frequently? How would you optimize the
  * kthSmallest routine?
  * 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class KthSmallestElementinaBST {

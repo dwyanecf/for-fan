@@ -21,7 +21,7 @@ import java.util.Map;
  * Each element in the result should appear as many times as it shows in both
  * arrays. The result can be in any order.
  * 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class InterSectionOfTwoArraysII {

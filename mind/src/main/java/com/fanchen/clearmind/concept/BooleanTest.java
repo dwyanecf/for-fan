@@ -4,7 +4,7 @@
 package com.fanchen.clearmind.concept;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class BooleanTest {

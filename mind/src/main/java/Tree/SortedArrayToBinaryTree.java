@@ -6,7 +6,7 @@ package Tree;
 import com.fanchen.clearmind.concept.TreeNode;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  *
 Given an array where elements are sorted in ascending order, convert it to a height balanced BST.

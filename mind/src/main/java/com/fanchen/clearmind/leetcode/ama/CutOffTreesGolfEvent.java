@@ -51,7 +51,7 @@ import java.util.Queue;
  * 
  * Hint: size of the given matrix will not exceed 50x50.
  * 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class CutOffTreesGolfEvent {

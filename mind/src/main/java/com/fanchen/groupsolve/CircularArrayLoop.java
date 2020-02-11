@@ -4,7 +4,7 @@
 package com.fanchen.groupsolve;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class CircularArrayLoop {

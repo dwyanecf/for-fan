@@ -10,7 +10,7 @@ import java.util.List;
  * A mapping of digit to letters (just like on the telephone buttons) is given
  * below. Note that 1 does not map to any letters.
  * 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class CombinationOfPhoneNumber {

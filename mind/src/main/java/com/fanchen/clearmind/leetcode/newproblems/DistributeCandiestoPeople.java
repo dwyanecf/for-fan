@@ -4,7 +4,7 @@
 package com.fanchen.clearmind.leetcode.newproblems;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class DistributeCandiestoPeople {

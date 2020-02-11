@@ -8,7 +8,7 @@ import java.io.UnsupportedEncodingException;
 import org.apache.commons.lang3.StringEscapeUtils;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class Escape {

@@ -20,7 +20,7 @@ package com.fanchen.clearmind.leetcode.binarysearch;
  * 
  * 3 <= A.length <= 10000 0 <= A[i] <= 10^6 A is a mountain, as defined above.
  * 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class PeakIndexInAMountainArray {

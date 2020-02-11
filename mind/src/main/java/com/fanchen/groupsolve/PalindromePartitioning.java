@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class PalindromePartitioning {

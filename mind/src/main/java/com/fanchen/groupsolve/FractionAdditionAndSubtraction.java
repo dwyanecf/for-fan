@@ -6,7 +6,7 @@ package com.fanchen.groupsolve;
 import java.util.Scanner;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 

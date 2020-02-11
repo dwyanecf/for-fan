@@ -6,7 +6,7 @@ package com.fanchen.clearmind.classto.test;
 import javax.xml.bind.DatatypeConverter;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class HexToEBCDIC {
