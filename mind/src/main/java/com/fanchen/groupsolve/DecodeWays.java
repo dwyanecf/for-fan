@@ -32,31 +32,31 @@ public class DecodeWays {
 	 * @return
 	 */
 	public static List<String> decode(String s) {
-		List<String> result = new ArrayList<String>();
-		helper("", s, result);
-		System.out.println(result);
-		return result;
+		List<String> res = new ArrayList<>();
+		helper("", s, res);
+		System.out.println(res);
+		return res;
 	}
 
-	public static void helper(String prefix, String s, List<String> result) {
-
-		int len = s.length();
-		if (len == 0) {
-			result.add(prefix);
+	public static void helper(String prefix, String s, List<String> res) {
+		int n = s.length();
+		if (n == 0) {
+			res.add(prefix);
 			return;
 		}
-		if (s.charAt(0) == '0')
+		if (s.charAt(0) == '0') {
 			return;
+		}
 
-		helper(prefix + (char) (s.charAt(0) - '1' + 'a'), s.substring(1), result);
+		helper(prefix + (char) (s.charAt(0) - '1' + 'a'), s.substring(1), res);
 
-		if (len >= 2) {
-			int value = Integer.parseInt(s.substring(0, 2));
-			if (value <= 26)
-				helper(prefix + (char) (value - 1 + 'a'), s.substring(2), result);
+		if (n > 1) {
+			int lastTwo = Integer.parseInt(s.substring(0, 2));
+			if (lastTwo <= 26) {
+				helper(prefix + (char) (lastTwo - 1 + 'a'), s.substring(2), res);
+			}
 		}
 	}
-
 
 	public static void main(String[] args) {
 		decode("226");
