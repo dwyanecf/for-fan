@@ -21,24 +21,23 @@ package com.fanchen.clearmind.GroupSolve.DP.easy;
  * Explanation: In this case, no transaction is done, i.e. max profit = 0.
  */
 
-
 /**
- * 1.check price[i] - prices[i-1] >0? if yes then set to max;
- * 2.check cur >0 or not, if not then set cur = 0;
+ * 1.check price[i] - prices[i-1] >0? if yes then set to max; 2.check cur >0 or
+ * not, if not then set cur = 0;
  */
 public class BestTimeToSellStock {
-    public int maxProfit(int[] prices) {
-        int cur = 0;
-        int max = 0;
-        for (int i = 1; i < prices.length; i++) {
-            int diff = prices[i] - prices[i - 1];
-            cur += diff;
-            if (cur > 0) {
-                max = Math.max(cur,max);
-            } else {
-                cur = 0;
-            }
-        }
-        return max;
-    }
+	public int maxProfit(int[] prices) {
+		int cur = 0;
+		int max = 0;
+		for (int i = 1; i < prices.length; i++) {
+			int diff = prices[i] - prices[i - 1];
+			cur += diff;
+			if (cur > 0) {
+				max = Math.max(cur, max);
+			} else {
+				cur = 0;
+			}
+		}
+		return max;
+	}
 }
