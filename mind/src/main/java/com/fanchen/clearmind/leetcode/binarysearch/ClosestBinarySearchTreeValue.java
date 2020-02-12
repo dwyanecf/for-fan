@@ -17,7 +17,7 @@ import com.fanchen.clearmind.concept.TreeNode;
  * 
  * Output: 4
  * 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class ClosestBinarySearchTreeValue {

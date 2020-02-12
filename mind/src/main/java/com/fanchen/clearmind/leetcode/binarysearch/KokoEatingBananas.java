@@ -30,7 +30,7 @@ package com.fanchen.clearmind.leetcode.binarysearch;
  * 
  * 1 <= piles.length <= 10^4 piles.length <= H <= 10^9 1 <= piles[i] <= 10^9
  * 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class KokoEatingBananas {

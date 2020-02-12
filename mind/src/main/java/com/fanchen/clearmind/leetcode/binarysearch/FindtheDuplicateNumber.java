@@ -16,7 +16,7 @@ package com.fanchen.clearmind.leetcode.binarysearch;
  * O(n2). There is only one duplicate number in the array, but it could be
  * repeated more than once.
  * 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class FindtheDuplicateNumber {

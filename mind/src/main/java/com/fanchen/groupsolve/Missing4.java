@@ -6,7 +6,7 @@ package com.fanchen.groupsolve;
 import java.util.Arrays;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class Missing4 {
@@ -40,6 +40,31 @@ public class Missing4 {
 	// Driver code
 	public static void main(String[] args) {
 		int[] arr = { 1, 7, 3, 12, 5, 10, 8, 4, 9 };
-		missing4(arr);
+//		missing4(arr);
+		missing4Numbers(arr);
+	}
+
+	public static void missing4Numbers(int[] arr) {
+		int[] missed = new int[4];
+		Arrays.fill(missed, 1);
+		for (int i = 0; i < arr.length; i++) {
+			int index = Math.abs(arr[i]) - 1;
+			if (index < arr.length) {
+				arr[index] = -arr[index];
+			} else {
+				missed[index - arr.length] = -1;
+			}
+		}
+
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] > 0) {
+				System.out.println(i + 1 + " ");
+			}
+		}
+		for (int i = 0; i < missed.length; i++) {
+			if (missed[i] > 0) {
+				System.out.println(arr.length + i + 1 + " ");
+			}
+		}
 	}
 }

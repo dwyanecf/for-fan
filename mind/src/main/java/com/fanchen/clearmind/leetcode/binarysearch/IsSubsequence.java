@@ -29,7 +29,7 @@ package com.fanchen.clearmind.leetcode.binarysearch;
  * 
  * 
  * 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class IsSubsequence {

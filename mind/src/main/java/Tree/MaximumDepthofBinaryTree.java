@@ -6,7 +6,7 @@ package Tree;
 import com.fanchen.clearmind.concept.TreeNode;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
 Given a binary tree, find its maximum depth.
 

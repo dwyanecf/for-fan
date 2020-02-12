@@ -6,7 +6,7 @@ package com.fanchen.groupsolve;
 import java.util.Stack;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class ValidParentheses {

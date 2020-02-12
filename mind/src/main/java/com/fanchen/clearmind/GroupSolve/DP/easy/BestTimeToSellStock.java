@@ -26,18 +26,26 @@ package com.fanchen.clearmind.GroupSolve.DP.easy;
  * not, if not then set cur = 0;
  */
 public class BestTimeToSellStock {
-	public int maxProfit(int[] prices) {
+	public static int maxProfit(int[] prices) {
 		int cur = 0;
 		int max = 0;
 		for (int i = 1; i < prices.length; i++) {
 			int diff = prices[i] - prices[i - 1];
 			cur += diff;
 			if (cur > 0) {
-				max = Math.max(cur, max);
+				if (cur > max) {
+					max = cur;
+					System.out.println("Sell: " + prices[i]);
+					System.out.println("Bought: " + (prices[i] - max));
+				}
 			} else {
 				cur = 0;
 			}
 		}
 		return max;
+	}
+
+	public static void main(String[] args) {
+		maxProfit(new int[] { 7, 1, 5, 3, 6, 4 });
 	}
 }

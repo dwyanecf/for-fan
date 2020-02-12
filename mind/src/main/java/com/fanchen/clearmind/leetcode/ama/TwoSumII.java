@@ -4,7 +4,7 @@
 package com.fanchen.clearmind.leetcode.ama;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class TwoSumII {

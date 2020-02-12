@@ -3,8 +3,11 @@
  */
 package com.fanchen.groupsolve;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class DecodeWays {
@@ -27,24 +30,34 @@ public class DecodeWays {
 	 * @param s
 	 * @return
 	 */
-	public int numDecodings(String s) {
-		if (s == null || s.length() == 0)
-			return 0;
+	public static List<String> decode(String s) {
+		List<String> res = new ArrayList<>();
+		helper("", s, res);
+		System.out.println(res);
+		return res;
+	}
 
-		int[] dp = new int[s.length() + 1];
-		dp[0] = 1;
-		dp[1] = s.charAt(0) != '0' ? 1 : 0;
+	public static void helper(String prefix, String s, List<String> res) {
+		int n = s.length();
+		if (n == 0) {
+			res.add(prefix);
+			return;
+		}
+		if (s.charAt(0) == '0') {
+			return;
+		}
 
-		for (int i = 2; i <= s.length(); i++) {
-			int lastOneDigit = Integer.parseInt(s.substring(i - 1, i));
-			int lastTwoDigit = Integer.parseInt(s.substring(i - 2, i));
-			if (lastOneDigit != 0) {
-				dp[i] += dp[i - 1];
-			}
-			if (lastTwoDigit >= 10 && lastTwoDigit <= 26) {
-				dp[i] += dp[i - 2];
+		helper(prefix + (char) (s.charAt(0) - '1' + 'a'), s.substring(1), res);
+
+		if (n > 1) {
+			int lastTwo = Integer.parseInt(s.substring(0, 2));
+			if (lastTwo <= 26) {
+				helper(prefix + (char) (lastTwo - 1 + 'a'), s.substring(2), res);
 			}
 		}
-		return dp[s.length()];
+	}
+
+	public static void main(String[] args) {
+		decode("226");
 	}
 }

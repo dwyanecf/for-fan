@@ -7,7 +7,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class ShortestSubarraywithSumatLeastK {

@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class Movingaverage {

@@ -4,7 +4,7 @@
 package com.fanchen.clearmind.concept.start.point;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 

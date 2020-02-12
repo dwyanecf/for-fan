@@ -4,7 +4,7 @@
 package com.fanchen.groupsolve;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class SuperEggDrop {
@@ -52,31 +52,38 @@ public class SuperEggDrop {
 	 */
 
 	/**
-	 * There's a typo in the author's explanation. It has confused me. Just to point
-	 * it out in case you also got confused.
+	 * Drop eggs is a very classical problem. Some people may come up with idea
+	 * O(KN^2) where dp[K][N] = 1 + max(dp[K - 1][i - 1],dp[K][N - i]) for i in
+	 * 1...N. However this idea is very brute force, for the reason that you check
+	 * all possiblity.
 	 * 
-	 * which means we take 1 move to a floor, if egg breaks, then we can check dp[m
-	 * - 1][k - 1] floors. if egg doesn't breaks, then we can check dp[m - 1][k - 1]
-	 * floors.--> should be dp[m-1][k] , which means still have k eggs but m-1
-	 * movement.
+	 * So I consider this problem in a different way: dp[M][K]means that, given K
+	 * eggs and M moves, what is the maximum number of floor that we can check.
+	 * 
+	 * The dp equation is: dp[m][k] = dp[m - 1][k - 1] + dp[m - 1][k] + 1, which
+	 * means we take 1 move to a floor, if egg breaks, then we can check dp[m - 1][k
+	 * - 1] floors. if egg doesn't breaks, then we can check dp[m - 1][k - 1]
+	 * floors.
+	 * 
+	 * dp[m][k] is similar to the number of combinations and it increase
+	 * exponentially to N
 	 * 
 	 * @param K
 	 * @param N
 	 * @return
 	 */
 	public int superEggDrop(int K, int N) {
-
 		int[][] dp = new int[N + 1][K + 1];
 		int m = 0;
 		while (dp[m][K] < N) {
-			++m;
-			for (int k = 1; k <= K; ++k)
-				dp[m][k] = dp[m - 1][k - 1] + dp[m - 1][k] + 1;
+			m++;
+			for (int k = 1; k <= K; k++) {
+				dp[m][k] = dp[m - 1][k - 1] + 1 + dp[m - 1][k];
+			}
 		}
 		return m;
-
 	}
-	
+
 	public static void main(String[] args) {
 	}
 }

@@ -6,7 +6,7 @@ package Tree;
 import com.fanchen.clearmind.concept.TreeNode;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 
@@ -33,7 +33,7 @@ import com.fanchen.clearmind.concept.TreeNode;
 	This problem was inspired by this original tweet by Max Howell:
 	
 	Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so f*** off.
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class InvertBinaryTree {

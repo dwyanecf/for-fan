@@ -6,7 +6,7 @@ package com.fanchen.clearmind.leetcode.tree;
 import com.fanchen.clearmind.concept.TreeNode;
 
 /**
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class BinaryTreeMaximumPathSum {

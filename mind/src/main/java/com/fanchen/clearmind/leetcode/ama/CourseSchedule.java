@@ -27,7 +27,7 @@ import java.util.Queue;
  * adjacency matrices. Read more about how a graph is represented. You may
  * assume that there are no duplicate edges in the input prerequisites.
  * 
- * @author fachen
+ * @author Fan Chen
  *
  */
 public class CourseSchedule {

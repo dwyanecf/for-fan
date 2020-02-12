@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author fachen
+ * @author Fan Chen
  * 
  * 
  *         Given an array of integers and an integer k, you need to find the
