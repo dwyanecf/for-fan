@@ -1,12 +1,13 @@
 /*
  * Copyright (C) 2020 Copart, Inc. All rights reserved.
  */
-package com.fanchen.clearmind.classto.test;
+package com.fanchen.clearmind.a.tools;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.List;
 
+import com.fanchen.clearmind.classto.test.Event;
 import com.google.gson.Gson;
 import com.opencsv.CSVReader;
 import com.opencsv.bean.ColumnPositionMappingStrategy;

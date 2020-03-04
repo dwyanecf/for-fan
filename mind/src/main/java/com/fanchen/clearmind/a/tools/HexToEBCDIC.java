@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2019 Copart, Inc. All rights reserved.
  */
-package com.fanchen.clearmind.classto.test;
+package com.fanchen.clearmind.a.tools;
 
 import javax.xml.bind.DatatypeConverter;
 

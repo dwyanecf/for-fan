@@ -1,4 +1,4 @@
-package com.fanchen.clearmind.classto.test;
+package com.fanchen.clearmind.a.tools;
 
 import java.util.HashMap;
 import java.util.Map;

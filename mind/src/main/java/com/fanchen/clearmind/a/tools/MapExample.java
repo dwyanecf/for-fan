@@ -1,4 +1,4 @@
-package com.fanchen.clearmind.classto.test;
+package com.fanchen.clearmind.a.tools;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

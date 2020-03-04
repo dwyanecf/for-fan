@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2020 Copart, Inc. All rights reserved.
  */
-package com.fanchen.clearmind.classto.test;
+package com.fanchen.clearmind.a.tools;
 
 import java.util.Arrays;
 import java.util.HashSet;
