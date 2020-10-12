@@ -1,4 +1,4 @@
-package com.fanchen.clearmind.leetcode.ama;
+package com.fanchen.clearmind.leetcode.ama.OA;
 
 public class LC1010 {
 

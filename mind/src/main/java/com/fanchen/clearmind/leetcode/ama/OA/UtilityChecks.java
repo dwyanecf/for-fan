@@ -1,4 +1,4 @@
-package com.fanchen.clearmind.leetcode.ama;
+package com.fanchen.clearmind.leetcode.ama.OA;
 
 import java.util.ArrayList;
 import java.util.List;
