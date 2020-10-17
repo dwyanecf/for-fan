@@ -31,4 +31,22 @@ public class DistanceBST2Nodes {
 			}
 		}
 	}
+
+	
+	// construct BST from a sorted array
+	public TreeNode sortedArrayToBST(int[] nums) {
+		if (nums == null)
+			return null;
+		return helper(0, nums.length, nums);
+	}
+
+	public TreeNode helper(int lo, int hi, int[] nums) {
+		if (lo >= hi)
+			return null;
+		int mid = lo + (hi - lo) / 2;
+		TreeNode cur = new TreeNode(nums[mid]);
+		cur.left = helper(lo, mid, nums);
+		cur.right = helper(mid + 1, hi, nums);
+		return cur;
+	}
 }
