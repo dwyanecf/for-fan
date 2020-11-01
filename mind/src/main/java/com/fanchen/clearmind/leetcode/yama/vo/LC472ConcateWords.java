@@ -4,6 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LC472ConcateWords {
+	
+	/**
+	 * Input: ["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"]
+
+		Output: ["catsdogcats","dogcatsdog","ratcatdogcat"]
+		
+		Explanation: "catsdogcats" can be concatenated by "cats", "dog" and "cats"; 
+		 "dogcatsdog" can be concatenated by "dog", "cats" and "dog"; 
+		"ratcatdogcat" can be concatenated by "rat", "cat", "dog" and "cat".
+	 * @param words
+	 * @return
+	 */
 	public List<String> findAllConcatenatedWordsInADict(String[] words) {
 		List<String> result = new ArrayList<>();
 		Trie root = new Trie();
@@ -50,4 +62,6 @@ public class LC472ConcateWords {
 		Trie[] next = new Trie[26];
 		String word;
 	}
+	
+	// only line 50 and 58 return result!
 }
