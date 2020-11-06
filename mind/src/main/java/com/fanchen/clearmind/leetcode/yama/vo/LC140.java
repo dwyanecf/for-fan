@@ -18,7 +18,7 @@ public class LC140 {
 	Map<String, List<String>> map;
 
 	public List<String> wordBreak(String s, List<String> wordDict) {
-		map = new HashMap();
+		map = new HashMap<String, List<String>>();
 		return wordBreakHelper(s, wordDict);
 	}
 
