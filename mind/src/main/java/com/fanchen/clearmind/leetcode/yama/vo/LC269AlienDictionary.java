@@ -8,8 +8,18 @@ import java.util.Set;
 
 public class LC269AlienDictionary {
 
-	public String alienOrder(String[] words) {
+	/**
+	 * Example 1:
+	 * 
+	 * Input: [ "wrt", "wrf", "er", "ett", "rftt" ]
+	 * 
+	 * Output: "wertf"
+	 */
+	public static String alienOrder(String[] words) {
+		// use map to store cur char's children set
 		HashMap<Character, Set<Character>> map = new HashMap<Character, Set<Character>>();// <c, char after c>
+
+		// use degree to count # of char before the cur char
 		HashMap<Character, Integer> degree = new HashMap<Character, Integer>();// <c, # of char before c>
 		StringBuilder res = new StringBuilder();
 		// initialize degree map
@@ -29,8 +39,9 @@ public class LC269AlienDictionary {
 				char c2 = next.charAt(j);
 				if (c1 != c2) {
 					Set<Character> set = new HashSet<Character>();// watch 'Set' declaration
-					if (map.containsKey(c1))
+					if (map.containsKey(c1)) {
 						set = map.get(c1);
+					}
 					if (!set.contains(c2)) {
 						set.add(c2);
 						map.put(c1, set);
@@ -38,8 +49,8 @@ public class LC269AlienDictionary {
 					}
 					break;// rest comparision is meaningless & not record it!
 				} else {
-					// edge case - no order: ["wrtkj","wrt"] 1:next stop at end 2: cur still have
-					// lefts
+					// edge case - no order: ["wrtkj","wrt"]
+					// next word stop at end but cur word still have lefts
 					if (j + 1 == next.length() && j + 1 < cur.length())
 						return "";
 				}
@@ -53,7 +64,7 @@ public class LC269AlienDictionary {
 			}
 		}
 		while (!queue.isEmpty()) {
-			char cur = queue.remove();
+			char cur = queue.poll();
 			res.append(cur);
 			if (map.containsKey(cur)) {
 				for (char c : map.get(cur)) {
@@ -63,10 +74,20 @@ public class LC269AlienDictionary {
 				}
 			}
 		}
-		// avoid loops. only < possible -- eg: ["qd","ab"] res = qa
+		// avoid loops. only < possible -- eg: ["z","x", "z"] res = 0
 		if (res.length() != degree.size())
 			return "";
 		return res.toString();
+	}
+
+	public static void main(String[] args) {
+//		String[] words = new String[] { "zx", "zy" };
+		String[] words = new String[] { "qa", "db", "dq", "ca", "cq", "na", "nw" };
+//		String[] words = new String[] { "qd", "ab" };
+//		String[] words = new String[] { "z", "x", "z" };
+//		String[] words = new String[] { "ab", "abc" };
+//		String[] words = new String[] { "wrt", "wrf", "er", "ett", "rftt" };
+		alienOrder(words);
 	}
 
 	// http://rainykat.blogspot.com/2017/01/leetcode-269-alien-dictionarybfs.html
