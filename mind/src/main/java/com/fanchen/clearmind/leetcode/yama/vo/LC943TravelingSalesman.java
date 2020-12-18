@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Stack;
 
 public class LC943TravelingSalesman {
-	public String shortestSuperstring(String[] A) {
+	public static String shortestSuperstring(String[] A) {
 		int n = A.length;
 		int[][] graph = new int[n][n];
 		// build the graph
@@ -64,13 +64,20 @@ public class LC943TravelingSalesman {
 		return sb.toString();
 	}
 
-	private int calc(String a, String b) {
+	private static int calc(String a, String b) {
 		for (int i = 1; i < a.length(); i++) {
 			if (b.startsWith(a.substring(i))) {
 				return b.length() - a.length() + i;
 			}
 		}
 		return b.length();
+	}
+	
+	
+	public static void main(String[] args) {
+		String a = "qwabcd";
+		String b = "bcde";
+		calc(a,b);
 	}
 	
 	//https://leetcode.com/problems/find-the-shortest-superstring/discuss/194932/Travelling-Salesman-Problem
