@@ -69,7 +69,4 @@ public static void help_commonAncestor2(Set<Integer> parents, int node, int[][] 
 	}
 }
 
-
-
-	
 }
