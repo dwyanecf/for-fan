@@ -3,7 +3,7 @@ package com.fanchen.clearmind.indeed.vo;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class LC346MovingAverage {
+public class MovingAverage {
 
 	class Event {
 		int time;
