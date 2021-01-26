@@ -62,31 +62,32 @@ public class MergeKSortedStreams {
 		}
 
 		/**
-		 * List<Integer> l1 = Arrays.asList(1, 2, 3, 3, 4); List<Integer> l2 =
-		 * Arrays.asList(2, 3, 5, 6); List<Integer> l3 = Arrays.asList(2, 5, 7);
+		 * List<Integer> l1 = Arrays.asList(1, 2, 3, 3, 4); 
+		 * List<Integer> l2 = Arrays.asList(2, 3, 5, 6); 
+		 * List<Integer> l3 = Arrays.asList(2, 5, 7);
 		 * 
 		 */
 		while (!pq.isEmpty()) { // O(sum)
-			Data curData = pq.poll();
-			int curDataValue = curData.val;
+			Data cur = pq.poll();
+			int curVal = cur.val;
 			int count = 1;
-			while (curData.stream.move()) { // O(len) m is the max length of each stream
-				int nextVal = curData.stream.getValue();
-				if (nextVal == curDataValue) {
+			while (cur.stream.move()) { // O(len) m is the max length of each stream
+				int nextVal = cur.stream.getValue();
+				if (nextVal == curVal) {
 					continue;
 				} else {
-					curData.val = nextVal;
-					pq.offer(curData);
+					cur.val = nextVal;
+					pq.offer(cur);
 					break;
 				}
 			}
 			// 更新其他stream的头部，就是把指针往后挪，相同的数字就计数了。
-			while (!pq.isEmpty() && curDataValue == pq.peek().val) { // O(k) n is the number of streams
+			while (!pq.isEmpty() && curVal == pq.peek().val) { // O(k) n is the number of streams
 				count++;
 				Data num = pq.poll(); // poll current same number
 				while (num.stream.move()) { // O(len) m is the max length of each stream
 					int nextVal = num.stream.getValue();
-					if (curDataValue == nextVal) {
+					if (curVal == nextVal) {
 						continue;
 					} else {
 						num.val = nextVal;
@@ -97,10 +98,14 @@ public class MergeKSortedStreams {
 			}
 
 			if (count >= k) {
-				res.add(curDataValue);
+				res.add(curVal);
 			}
 		}
 		return res;
 	}
+	
+	
+	
+	// nk log(k)  k is the number of streams, nk is the total number of numbers
 
 }
