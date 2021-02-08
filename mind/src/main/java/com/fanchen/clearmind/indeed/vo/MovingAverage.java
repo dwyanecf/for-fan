@@ -52,3 +52,25 @@ public class MovingAverage {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

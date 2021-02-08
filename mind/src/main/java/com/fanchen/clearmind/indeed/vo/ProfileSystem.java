@@ -4,23 +4,22 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ProfileSystem {
-	
-	// divde and conquery upload
+
+	// Divide and conquer upload
 	// metadata as index of each chunk
-	// 1.indexer, chunker, watcher, db
-	// 2, messaging service: rabbitMq, kafka
+	// 1.indexer, chunker, watcher, DB
+	// 2, messaging service: rabbitMq, Kafka
 	// 3. sync service
 	// 4. cache, DB
 	// 5. machine learning techs to put server at the populated area
-	
-	
-	
+
 	// Bandwidth and cloud space utilization
 	// Latency or Concurrency utilization
 
 	class Profile {
 		int version;
 		String id;
+		String name;
 		Map<Integer, Map<String, String>> versionMap;
 
 		public Profile(String id) {
@@ -82,3 +81,26 @@ public class ProfileSystem {
 
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

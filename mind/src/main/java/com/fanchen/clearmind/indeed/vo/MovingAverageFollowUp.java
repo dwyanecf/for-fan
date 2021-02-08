@@ -110,3 +110,27 @@ public class MovingAverageFollowUp {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
