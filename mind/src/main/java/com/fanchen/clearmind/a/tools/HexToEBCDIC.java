@@ -3,8 +3,6 @@
  */
 package com.fanchen.clearmind.a.tools;
 
-import javax.xml.bind.DatatypeConverter;
-
 /**
  * @author Fan Chen
  *
@@ -24,7 +22,7 @@ public class HexToEBCDIC {
 		byte[] ebcdic = hexStringToByteArray(hexadecimal3);
 		System.out.println(new String(ebcdic, "Cp273")); // prints 1234
 
-		System.out.println(new String(DatatypeConverter.parseHexBinary(hexadecimal3), "CP1047"));
+//		System.out.println(new String(DatatypeConverter.parseHexBinary(hexadecimal3), "CP1047"));
 	}
 
 }
