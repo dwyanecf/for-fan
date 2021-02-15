@@ -21,7 +21,7 @@ public class HexToEBCDIC {
 		String hexadecimal3 = "D240404040404040";
 		byte[] ebcdic = hexStringToByteArray(hexadecimal3);
 		System.out.println(new String(ebcdic, "Cp273")); // prints 1234
-
+//  lala
 //		System.out.println(new String(DatatypeConverter.parseHexBinary(hexadecimal3), "CP1047"));
 	}
 
