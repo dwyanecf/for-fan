@@ -1,6 +1,6 @@
 package com.fanchen.clearmind.zillow.VO;
 
-public class Minesweeper {
+public class TODOMinesweeper {
 
 	public char[][] Board;
 	public boolean[][] visited;
